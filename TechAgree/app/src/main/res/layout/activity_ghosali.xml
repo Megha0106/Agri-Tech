@@ -1,0 +1,208 @@
+<ScrollView
+    android:layout_height="match_parent"
+    android:layout_width="wrap_content"
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools" >
+
+<LinearLayout
+
+    android:layout_width="match_parent"
+    android:layout_height="match_parent" android:paddingLeft="@dimen/activity_horizontal_margin"
+    android:paddingRight="@dimen/activity_horizontal_margin"
+    android:paddingTop="@dimen/activity_vertical_margin"
+    android:paddingBottom="@dimen/activity_vertical_margin"
+    android:orientation="vertical"
+    tools:context="com.example.hp.techagree.Ghosali">
+
+    <TextView android:text="घोसाळी"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textColor="#ff0000"
+        android:textSize="30dp"
+        android:textStyle="bold"
+        android:layout_gravity="center_horizontal"
+        />
+    <ImageView
+        android:layout_width="match_parent"
+        android:layout_height="200dp"
+        android:src="@drawable/ghosali"
+        android:scaleType="fitXY"
+        android:layout_marginTop="20dp"
+        android:background="#ff5544"
+        />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="घोसाळी या भाजीला पारशी दोडका किंवा गिलके असेही म्हणतात. घोसाळीचा उपयोग भाजीसाठी आणि भज्यांत टाकण्यासाठी करतात. पक्व होऊन वाळलेल्या घोसाळ्याच्या सालीचा उपयोग परदेशात ब्रश तयार करण्यासाठी मोठ्या प्रमाणात करतात."
+        android:textSize="20dp"
+        android:textColor="#000000"
+        android:paddingLeft="5dp"
+        android:layout_marginTop="20dp"
+        />
+
+
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="जमीन"
+        android:textColor="#008e00"
+        android:textStyle="bold"
+        android:textSize="25dp"
+        android:layout_gravity="center_horizontal"
+        android:layout_marginTop="20dp"
+        />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="घोसाळी  पिकांसाठी अर्धा ते एक मीटर खोलीची, पाण्याचा यांगला निचरा होणारी कसदार जमीन निवडावी. क्षारयुक्त जमिनीत या पिकांची लागवड करू नये. "
+        android:textColor="#000000"
+        android:textSize="20dp"
+        android:layout_marginTop="10dp"
+        android:paddingLeft="5dp"
+        />
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="हवामान "
+        android:textColor="#008e00"
+        android:textStyle="bold"
+        android:textSize="25dp"
+        android:layout_gravity="center_horizontal"
+        android:layout_marginTop="20dp"
+        />
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="या पिकांना उष्ण हवामान मानवते, म्हणून यांच्या लागवडी जानेवारी - फेब्रुवारी महिन्यात करतात."
+        android:textColor="#000000"
+        android:textSize="20dp"
+        android:layout_marginTop="10dp"
+        android:paddingLeft="5dp"
+        />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="लागवडीचे अंतर आणि लागवड पद्धती"
+        android:textColor="#008e00"
+        android:textStyle="bold"
+        android:textSize="25dp"
+        android:layout_gravity="center_horizontal"
+        android:layout_marginTop="20dp"
+        />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="काकडीवर्गीय पिकांची पाट पद्धतीने किंवा आळे पद्धतीने करतात. आळे पद्धतीने पिकाला जास्त पाणी द्यावे लागते आणि तणांची वाढही जास्त होते. घोसाळींच्या लागवडीसाठी रुंद सरी - वरंबा पद्धत चांगली मानली आहे. फळभाजीच्या जातीनुसार घोसाळीची लागवड ५ फूट अंतरावर बी टोकून करतात. दोन वेलींत ४ फूट अंतर ठेवावे. पाटाच्या एका बाजूने ठराविक अंतरावर खुरप्याच्या सहाय्याने लहानसा खळगा (खड्डा) करून त्यामध्ये १ ते २ बिया एका ठिकाणी टोकून मातीने झाकून हाताने दाबून घ्याव्यात. पाटात पाणी सोडून सऱ्या भिजवाव्यात. पाटातील पाण्याची पातळी टोकलेल्या बियांच्या जागेच्या खाली असावी. म्हणजे जादा पाण्यामुळे बिया सडणार नाहीत."
+        android:textColor="#000000"
+        android:textSize="20dp"
+        android:layout_marginTop="10dp"
+        android:paddingLeft="5dp"
+        />
+
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="पाणी"
+        android:textColor="#008e00"
+        android:textStyle="bold"
+        android:textSize="25dp"
+        android:layout_gravity="center_horizontal"
+        android:layout_marginTop="20dp"
+        />
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="लागवडीपुर्वी सऱ्या ओलवून घ्याव्यात. बियांची टोकण केल्याबरोबर पाणी ताबडतोब देऊन पाट भिजवून घ्यावेत. उन्हाळ्यात ५ ते ७ दिवसांच्या अंतराने जमिनीचा मगदूर, पिकाची वाढ, हवामानाचा विचार करून पाणी द्यावे. पाणी हे सकाळी १० च्या अगोदर किंवा सायंकाळी ६ नंतर द्यावे. पाट पद्धतीने लागवड केल्यास पाणी पाटाच्या बाहेर वाहणार नाही याची काळजी घ्यावी."
+        android:textColor="#000000"
+        android:textSize="20dp"
+        android:paddingLeft="5dp"
+        android:layout_marginTop="10dp"
+        />
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="खते"
+        android:textColor="#008e00"
+        android:textStyle="bold"
+        android:textSize="25dp"
+        android:layout_gravity="center_horizontal"
+        android:layout_marginTop="20dp"
+        />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="घोसाळी पिकांसाठी १०० किलो नत्र, ५० किलो स्फुरद व ५० किलो पालाश दर हेक्टरी द्यावे. मशागतीच्या वेळी हेक्टरी २५ ते ३० टन शेणखत देऊन बी टोकताना त्या जागी. अगोदर १ चहाचा चमचाभर कल्पतरू सेंद्रिय खत द्यावे. ते मातीने झाकून त्यावर बी टोकावे. पुन्हा १ ते १।। महिन्यांनी कल्पतरू सेंद्रिय खत एकरी १०० किलो द्यावे."
+        android:textColor="#000000"
+        android:textSize="20dp"
+        android:paddingLeft="5dp"
+        android:layout_marginTop="10dp"
+        />
+
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="काढणी व उत्पादन "
+        android:textColor="#008e00"
+        android:textStyle="bold"
+        android:textSize="25dp"
+        android:layout_gravity="center_horizontal"
+        android:layout_marginTop="20dp"
+        />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="बियाण्यांच्या उगवणीनंतर साधारण ५५ - ६० दिवसांत पहिला तोडा मिळतो. त्यानंतर ४ - ५ दिवसांच्या अंतराने तोडे होतात. घोसाळीचे साधारणपणे हेक्टरी १५ ते १६ टन उत्पादन मिळते. ह्या पिकांची फळे कोवळी असताना तोडावीत. फळे जास्त जुनं झाल्यास फळाची साल टणक होऊन आतील बियाही टणक होतात आणि फळांची प्रत खराब होते. वरील तंत्रज्ञानाने चांगली निगा ठेवलेल्या पिकापासून १८ - २० तोडे मिळतात. तोडणी सकाळी करावी. फळे सावलीत ठेवावी. प्रतवारी करून फळे बांबूच्या पाट्या, लाकडी खोके किंवा कागदी पुठ्ठ्यांच्या खोक्यांत व्यवस्थित रचून भरावीत. तळाशी कडूलिंबाचा पाला टाकावा व त्यावर वर्तमानपत्राचा वापर करून फळे रचावीत."
+        android:textColor="#000000"
+        android:textSize="20dp"
+        android:paddingLeft="5dp"
+        android:layout_marginTop="10dp"
+        />
+
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="वळण, आधार देणे आणि आंतरमशागत "
+        android:textColor="#008e00"
+        android:textStyle="bold"
+        android:textSize="25dp"
+        android:layout_gravity="center_horizontal"
+        android:layout_marginTop="20dp"
+        />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="घोसाळी ही वेलवर्गीय पिके असल्यामुळे या पिकांच्या वेलींना वळण देणे आवश्यक आहे. मुख्य वेलीची वाढ भराभर होण्यासाठी बगलफुटी काढाव्यात. वेल तारेच्याखाली एक फुटावर आल्यावर बगलफूट काढणे बंद करावे आणि ३ - ४ चांगल्या फुटी ठेवाव्या आणि त्या तारेवर पसरू द्याव्यात."
+        android:textColor="#000000"
+        android:textSize="20dp"
+        android:paddingLeft="5dp"
+        android:layout_marginTop="10dp"
+        />
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/btnghosali"
+        android:text="अधिक माहिती"
+        android:layout_margin="20dp"
+        android:layout_gravity="center_horizontal"
+        android:textColor="#ffffff"
+        android:textSize="25dp"
+        android:background="#00ff00"
+        android:padding="5dp"
+        />
+
+
+
+
+</LinearLayout>
+</ScrollView>

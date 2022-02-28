@@ -1,0 +1,291 @@
+<ScrollView
+    android:layout_height="match_parent"
+    android:layout_width="wrap_content"
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools" >
+
+<LinearLayout
+    android:layout_width="match_parent"
+    android:layout_height="match_parent" android:paddingLeft="@dimen/activity_horizontal_margin"
+    android:paddingRight="@dimen/activity_horizontal_margin"
+    android:paddingTop="@dimen/activity_vertical_margin"
+    android:orientation="vertical"
+    android:paddingBottom="@dimen/activity_vertical_margin"
+    tools:context="com.example.hp.techagree.Kapus">
+
+    <TextView android:text="कापूस"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textColor="#ff0000"
+        android:textSize="30dp"
+        android:textStyle="bold"
+        android:layout_gravity="center_horizontal"
+        />
+    <ImageView
+        android:layout_width="match_parent"
+        android:layout_height="200dp"
+        android:src="@drawable/cotton"
+        android:scaleType="fitXY"
+        android:layout_marginTop="20dp"
+        android:background="#ff5544"
+        />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="नगदी पिकात महत्त्वाचे पीक कापूस असून पांढरे सोने म्हणून त्यास संबोधले जाते. देशात उत्पादन होणार्‍या क्षेत्रापैकी सर्वसाधारण १/३ क्षेत्र महाराष्ट्र राज्यात आहे. महाराष्ट्रात सुमारे २५ ते २७ लाख हेकटर क्षेत्र असून त्यातील जिरायत क्षेत्राचे प्रमाण जास्त असून बागायत क्षेत्र ३ ते ४ टक्के आहे. प्रामुख्याने ज्या भागात उन्हाळी पीक घेतले जाते त्या भागातच कमी पाण्यात व ६ महिन्यात बागायत कापूस पिकाचे उत्पादन चांगले मिळत असल्याने आर्थिक गरजेसाठी या पिकास जास्त महत्त्व प्राप्त होते. उत्पादन वाढीसाठी सुधारित पद्धतीने लागवड करून जास्तीत जास्त उत्पादन घेणे योग्य ठरेल."
+        android:textSize="20dp"
+        android:textColor="#000000"
+        android:paddingLeft="5dp"
+        android:layout_marginTop="20dp"
+        />
+
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="जमीन"
+        android:textColor="#008e00"
+        android:textStyle="bold"
+        android:textSize="25dp"
+        android:layout_gravity="center_horizontal"
+        android:layout_marginTop="20dp"
+        />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="कापूस लागवडीसाठी जमीन निवडताना त्या जमिनीच्या नावातच काळी कापसाची जमीन हा उल्लेख येतो. परंतु बागायती कापूस लागवडीसाठी मध्यम, पाण्याचा चांगला निचरा होणारी, ७ ते ८ पर्यंत सामू आणि १ % पेक्षा जास्त सेंद्रिय कर्ब असलेली जमीन निवडावी. मात्र हंगामातील कापूस लागवडीसाठी मध्यम ते भारी जमीन योग्य असते. पूर्वहंगामी कापूस लागवड मे महिन्यात होत असल्यामुळे जास्त हलक्य जमिनीत किंवा खोल काळ्या जमिनीत या पिकाची लागवड केल्यास पाणी व्यवस्थापनेमध्ये अडचणी येऊ शकतात, म्हणून जमिनीची निवड योग्य पद्धतीने होईल, याकडे लक्ष देणे गरजेचे आहे."
+        android:textColor="#000000"
+        android:textSize="20dp"
+        android:layout_marginTop="10dp"
+        android:paddingLeft="5dp"
+        />
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="हवामान "
+        android:textColor="#008e00"
+        android:textStyle="bold"
+        android:textSize="25dp"
+        android:layout_gravity="center_horizontal"
+        android:layout_marginTop="20dp"
+        />
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="कापूस पिकास संपूर्ण कालावधीसाठी ५०० ते ६०० मि.मी. पाऊस लागतो.पेरणीच्यावेळी ७५ ते १०० मि.मी. पाऊस ब बियाणे उगवणीसाठी १५ डी सें.ग्रे. तापमानाची गरज असते.रोप अवस्थेत शारीरिक वाढीसाठी २१ ते २८ डी. सें.ग्रे. तापमानाची गरज असते.
+                      कापसाला जास्त फुले येण्याकरिता दिवसाचे तापमान २४ डी ते २८ डी सें.ग्रे. रात्रीचे तापमान २० डी. ते २१ डी. सें.ग्रे. लागते.
+                      रात्रीचे २४ डी. सें.ग्रे. चे वर व दिवसाचे ३० डी. सें.ग्रे. चे वर तापमान गेल्यास फुले व पाते गळण्याचे प्रमाण वाढते."
+        android:textColor="#000000"
+        android:textSize="20dp"
+        android:layout_marginTop="10dp"
+        android:paddingLeft="5dp"
+        />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="जमिनीची पूर्वतयारी  "
+        android:textColor="#008e00"
+        android:textStyle="bold"
+        android:textSize="25dp"
+        android:layout_gravity="center_horizontal"
+        android:layout_marginTop="20dp"
+        />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="खोल नांगस्ट, कुळवाच्या ३ ते ४ पाळ्या देऊन जमीन भुसभुशीत करावी. या पिकाच्या मुळ्या खोल जात असल्यामुळे हे आवश्यक आहे.
+                      कापूस लागवडीपूर्वी शेवटची पाळी देताना ती पूर्व - पश्चिम द्यावी. म्हणजे लागवड करताना अडचण येणार नाही.
+                      शेवटच्या पाळीपूर्वी एकरी ८ ते १० टन चांगले कुजलेले शेणखत किंवा कंपोस्ट खत शेतात मिसळावे.
+
+                      कोळपट (न नांगरलेल्या ) रानामध्ये कापूस लावू नये. कारण पाण्याचा किंवा पावसाचा थोडाही ताण पडल्यास अशा जमिनीतील कपाशीचे उत्पादन घटते, हे सिद्ध झालेले आहे. त्यामुळे नांगरटीशिवाय कापूस लावू नये.
+                      पूर्वीचे पीक गहू असेल तर उत्तम, नसल्यास एकरी एक ते दीड ट्रोंली गव्हाचे काड शेतात मिसळल्यास जमिनीला पाण्याच्या ताणाच्या काळात भेगा पडत नाहीत. पर्यायाने ओल उडण्याचे प्रमाण कमी होते."
+        android:textColor="#000000"
+        android:textSize="20dp"
+        android:layout_marginTop="10dp"
+        android:paddingLeft="5dp"
+        />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="लागवडीची वेळ"
+        android:textColor="#008e00"
+        android:textStyle="bold"
+        android:textSize="25dp"
+        android:layout_gravity="center_horizontal"
+        android:layout_marginTop="20dp"
+        />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="पूर्वहंगामी कापूस लागवड करताना आपण वेळेचा विचार कधी केल्याचे दिसून येत नाही. मग अक्षय्य तृतीयेपासून ते मे अखेर किंवा जूनचा पहिला आठवडा या कालावधीमध्ये आपण लागवड करत असतो. या विषयावर जास्त माहिती व्हावी, महणून कपाशीचे शरीरशास्त्राचा या ठिकाणी आपण आधार घेणार आहोत. काही थोड्या जाती वगळता इतर सर्व जातींमध्ये कपाशीच्या झाडास लागवडीपासून ३० ते ३५ दिवसांनी पाते, ५० ते ५५ दिवसांनी फुले, ९० दिवसांनी बोंडे तयार होणे आणि १२० दिवसांनी बोंडे फुटून कापूस वेचणीस येतो.
+                      जर १ ते २० मे रोजी कपाशीची लागवड केल्यास त्याची बोंडे फुटण्याची अवस्था ही साधारणपणे १० सप्टेंबर रोजी पूर्ण होते. कापसाच्या भागामध्ये ऑगस्ट आणि सप्टेंबर महिन्यात हमखास मोठ्या प्रमाणावर पाऊस पडतो. त्यातल्या त्यात मराठवाडा विभागामध्ये परतीचा मान्सून मोठ्या प्रमाणावर येतो, हे नक्की. मग यावेळी एकतर पावसामुळे बोंडे सडण्यास सुरुवात होते. फुटलेले बोंड पावसात सापडल्यामुळे मोठे नुकसान होते आणि सुरुवातीस लागलेली चांगली बोंडे खराब झाल्यामुळे उत्पादनावर फार मोठा परिणाम संभवतो. म्हणून पूर्वहंगामी कापूस लागवड २० मे ते २५ मे या दरम्यान करावी. या अगोदर लागवड लक्षात घेऊन मगच वाणांची निवड करावी. साधारणपणे ७५ ते १०० मि.मी. पाऊस झाल्यानंतरच लागवड करणे योग्य. लागवडीत चूक केल्यास तूट होण्याची शकयता जास्त असते."
+        android:textColor="#000000"
+        android:textSize="20dp"
+        android:layout_marginTop="10dp"
+        android:paddingLeft="5dp"
+        />
+
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="पाणी"
+        android:textColor="#008e00"
+        android:textStyle="bold"
+        android:textSize="25dp"
+        android:layout_gravity="center_horizontal"
+        android:layout_marginTop="20dp"
+        />
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="कपाशीच्या पाण्याच्या गरजेनुसार चार संवेदनशील अवस्था आहेत
+                      १) रोपावस्था : पेरणीपासून २५ दिवसांचे काळात पाण्याची कमतरता पडल्यास झाडांची वाढ थांबते फांद्या व बोंडे कमी लागतात.
+                      २) पाते येण्याची अवस्था : लागवडीपासून ४० ते ४५ दिवसांचे काळात पाणी कमी पडल्यास पात्यांची गळ होऊन बोंडे कमी लागतात.
+                      ३) फुलोरा येणे : लागवडीपासून ७५ ते ९० दिवसांच्या काळात पाणी कमी पडल्यास पाते व फुले गळतात व बोंड लहान राहते.
+                      ४) बोंडांची वाढ : लागवडीपासून ११५ ते १२५ दिवसांच्या काळात पाणी कमी पडल्यास बोंडे चांगली फुटत नाहीत"
+        android:textColor="#000000"
+        android:textSize="20dp"
+        android:paddingLeft="5dp"
+        android:layout_marginTop="10dp"
+        />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="ठिबक सिंचनाद्वारे पाणी व्यवस्थापन"
+        android:textColor="#008e00"
+        android:textStyle="bold"
+        android:textSize="25dp"
+        android:layout_gravity="center_horizontal"
+        android:layout_marginTop="20dp"
+        />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="ठिबक सिंचनावर कपाशीची लागवड करावयाची असल्यास योग्य लागवड अंतराची निवड करणे आवश्यक आहे.
+                      १) ५ x १, ६ x १, ४ x २ x १, ५ x २ x १ फूट ही लागवड अंतरे ठिबक सिंचनावर कपाशी लागवडीसाठी वापरावीत. यामुळे ठीबकवरील खर्च कमी करता येईल.
+                      २) जोड ओळ पद्धतीने लागवड करावयाची असल्यास मात्र फांदी खालील मोठे पान पीक ६० दिवसांचे असताना काढणे आवश्यक.
+                      ३) लॅटरलवर ३० सें.मी. अंतरावर ड्रिपर असावा. (इनलाईनचा वापर करावा.)"
+        android:textColor="#000000"
+        android:textSize="20dp"
+        android:paddingLeft="5dp"
+        android:layout_marginTop="10dp"
+        />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="खते"
+        android:textColor="#008e00"
+        android:textStyle="bold"
+        android:textSize="25dp"
+        android:layout_gravity="center_horizontal"
+        android:layout_marginTop="20dp"
+        />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="भरखते : अधिक व दर्जेदार कापसाचे उत्पादन मिळवण्याकरिता ४ ये ६ टक्के सेंद्रिय पदार्थ जमिनीत आवश्यक आहे. कोरडवाहू कपाशीसाठी २५ गाड्या (१२.५ टन) व बागायत कपाशीसाठी ५० गाड्या (२५ टन ) चांगले कुजलेलेल शेणखत किंवा कंपोस्ट खत शेवटच्या पाळीपूर्वी जमिनीत मिसळून द्यावे किंवा हेक्टरी ५ टन गांडूळखत कापूस लागवडीनंतर २० ते २५ दिवसांनी पाळीसोबत जमिनीत मिसळावे.
+                      कल्पतरू सेंद्रिय खत : बी लागवडीच्यावेळी प्रत्येक ठिकाणी ५० ग्रॅम कल्पतरू सेंद्रिय खत मातीआड करून त्यावर बी टोकावे. नंतर पहिली खुरपणी झाल्यावर एकरी १०० किलो कल्पतरू खत द्यावे. बागायती कापसास फुलापात्या लागतेवेळी पुन्हा एकदा एकरी १०० किलो कल्पतरू सेंद्रिय खत द्यावे. हे खत दिल्यामुळे खालील रासायनिक खताच्या मात्रेत ५० % बचत होते असे प्रयोगावरून आढळून आले आहे."
+        android:textColor="#000000"
+        android:textSize="20dp"
+        android:paddingLeft="5dp"
+        android:layout_marginTop="10dp"
+        />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="कापूस वेचणी"
+        android:textColor="#008e00"
+        android:textStyle="bold"
+        android:textSize="25dp"
+        android:layout_gravity="center_horizontal"
+        android:layout_marginTop="20dp"
+        />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="१) ३० ते ४० टक्के बोंडे फुटल्यानंतर पाणी देणे बंद करावे.
+                      २) कापूस वेचणी, सकाळच्या वेळी करावी.
+                      ३) वेचणी करताना रोगग्रस्त, कवडी, पिवळसर कापूस वेगळा वेचावा .
+                      ४) नंतरच्या वेचण्या १५ ते २० दिवसांचे अंतराने कराव्यात.
+                      ५) पूर्ण परिपक्क व पूर्ण उमललेल्या बोंडातीलच कापूस वेचावा.
+                      ६) वेचणी करताना प्लॅस्टिक गोण्यांचा वापर करू नये."
+        android:textColor="#000000"
+        android:textSize="20dp"
+        android:paddingLeft="5dp"
+        android:layout_marginTop="10dp"
+        />
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="कापूस साठवण "
+        android:textColor="#008e00"
+        android:textStyle="bold"
+        android:textSize="25dp"
+        android:layout_gravity="center_horizontal"
+        android:layout_marginTop="20dp"
+        />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="१) कापसाला बांधावरील गवत व काडीकचरा लागणार नाही, याची काळजी घ्यावी.
+                      २) वेचणीनंतर २ ते ३ दिवस कापूस वाळवाव .
+                      ३) प्रत्येक वेचानीचा कापूस वेगळा व जातवार साठवावा .
+                      ४) साठवणूक स्वच्छ व मोकळ्या जागी करावी .
+                      ५) धूळ, धूर व उंदीर यापासून कापसाचे संरक्षण करावे."
+        android:textColor="#000000"
+        android:textSize="20dp"
+        android:paddingLeft="5dp"
+        android:layout_marginTop="10dp"
+        />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="कापूस विक्री "
+        android:textColor="#008e00"
+        android:textStyle="bold"
+        android:textSize="25dp"
+        android:layout_gravity="center_horizontal"
+        android:layout_marginTop="20dp"
+        />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="१) प्रत्येक वेचणीचा कापूस वेगळा व जातवार विक्रीसाठी न्याव.
+                      २) ओलसर कापूस विक्रीसाठी नेऊ नये.
+                      ३) कापूस विक्रीसाठी नेतांना त्यावर पाणी मारू नये .
+                      ४) शेवटच्या वेचणीचा कापूस वेगळा व सर्वात शेवटी विक्रीसाठी न्यावा."
+        android:textColor="#000000"
+        android:textSize="20dp"
+        android:paddingLeft="5dp"
+        android:layout_marginTop="10dp"
+        />
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/btnkapus"
+        android:text="अधिक माहिती"
+        android:layout_margin="20dp"
+        android:layout_gravity="center_horizontal"
+        android:textColor="#ffffff"
+        android:textSize="25dp"
+        android:background="#00ff00"
+        android:padding="5dp"
+        />
+</LinearLayout>
+</ScrollView>

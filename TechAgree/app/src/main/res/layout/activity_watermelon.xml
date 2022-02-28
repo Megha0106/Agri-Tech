@@ -1,0 +1,284 @@
+<ScrollView
+    android:layout_height="match_parent"
+    android:layout_width="wrap_content"
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools" >
+
+<LinearLayout
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context="com.example.hp.techagree.Watermelon">
+
+    <TextView android:text="कलिंगड"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textColor="#ff0000"
+        android:textSize="30dp"
+        android:textStyle="bold"
+        android:layout_gravity="center_horizontal"
+        />
+    <ImageView
+        android:layout_width="match_parent"
+        android:layout_height="200dp"
+        android:src="@drawable/watermelon"
+        android:scaleType="fitXY"
+        android:layout_marginTop="20dp"
+        android:background="#ff5544"
+        />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="कलिंगड हे सर्वसामान्य लोकांना परवडणारे, सर्व थरातील लोकांच्या पसंतीस उतरलेले वेलवर्गीय फळ, याला वर्षभर जरी मागणी असली तरी उन्हाळ्यामध्ये मोठ्या प्रमाणात मागणी असते. शहरी व ग्रामीण भागांमध्ये कडक उन्हाळ्यात सतत लागणारी तहान शमविण्यासाठी कलिंगडाच्या फोडींचा हमखास उपयोग होताना दिसतो"
+        android:textSize="20dp"
+        android:textColor="#000000"
+        android:paddingLeft="5dp"
+        android:layout_marginTop="20dp"
+        />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="महत्त्व"
+        android:textColor="#008e00"
+        android:textStyle="bold"
+        android:textSize="25dp"
+        android:layout_gravity="center_horizontal"
+        android:layout_marginTop="20dp"
+        />
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="उन्हाळ्यातील दाहकता कमी करणारे असे हे मधुर फळ आहे."
+        android:textColor="#000000"
+        android:textSize="20dp"
+        android:paddingLeft="5dp"
+        android:layout_marginTop="10dp"
+        />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="जमीन"
+        android:textColor="#008e00"
+        android:textStyle="bold"
+        android:textSize="25dp"
+        android:layout_gravity="center_horizontal"
+        android:layout_marginTop="20dp"
+        />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="हे पीक सर्व प्रकारच्या जमिनीत येते. चुनखडीयुक्त खारवट, चोपण जमीन लागवडीस अयोग्य आहे. कारण अशा जमिनीत अतिप्रमाणात असणार्‍या सोडियम, केल्शियाम, मॅग्रशियम सल्फेट, क्लोराईड, कार्बोनेट व बायकार्बोनेटसारख्य विद्राव्य क्षारांमुळे कलिंगडाच्या फळावर डाग पडण्याची शक्यता असते. बारामती, फलटण भागातून येणार्‍या कलिंगडावरती अशा प्रकारचे डाग नेहमी मोठ्या प्रमाणात दिसतात. तथापि सप्तामृत फवारल्याने हे फळावरील डाग आले नसल्याचा त्या भागातील शेतकर्‍यांचा अनुभव आहे. लागवडीसाठी हलकी, पोयट्याची, मध्यम - काळ्या ते करड्या 'रंगाची ('डी ' किंवा 'जी' साईल असलेली) पाण्याचा निचरा असणारी जमीन लागवडीस योग्य आहे."
+        android:textColor="#000000"
+        android:textSize="20dp"
+        android:layout_marginTop="10dp"
+        android:paddingLeft="5dp"
+        />
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="हवामान "
+        android:textColor="#008e00"
+        android:textStyle="bold"
+        android:textSize="25dp"
+        android:layout_gravity="center_horizontal"
+        android:layout_marginTop="20dp"
+        />
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="उष्ण व कोरडे हवामान चांगले मानवते. अलीकडे कडक उन्हाळ्याचा आणि भर पावसाळ्याचा काळ सोडला तर वर्षभर कलिंगडाची लागवड केली जाते. वाढीच्या कालावधीमध्ये हवेमध्ये दमटपणा व धुके असल्यास वेलीची वाढ व्यवस्थित होते नाही. पीक रोगास बळी पडण्याची शक्यता असते."
+        android:textColor="#000000"
+        android:textSize="20dp"
+        android:layout_marginTop="10dp"
+        android:paddingLeft="5dp"
+        />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text=" लागवडीचा हंगाम"
+        android:textColor="#008e00"
+        android:textStyle="bold"
+        android:textSize="25dp"
+        android:layout_gravity="center_horizontal"
+        android:layout_marginTop="20dp"
+        />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="लागवड शक्यतो जानेवारी महिन्यात करावी. म्हणजे उन्हाळ्याच्या तोंडावर याची फळे तयार होत असून त्यांना मागणी अधिक राहते. त्यामुळे बाजारभाव चांगले मिळतात. दक्षिण महाराष्ट्रामध्ये कलिंगडाची लागवड ऑगस्ट, सप्टेंबर महिन्यात करतात व ही फळे नोव्हेंबर, डिसेंबरमध्ये तयार होतात. उत्पादन कमी येते. परंतु भाव चांगला मिळतो. लागवडीचा हंगाम कोणताही असला तरीही त्यास सप्तामृत (जर्मिनेटर,थ्राईवर, क्रॉंपशाईनर, राईपनर, प्रोटेक्टंट, प्रिझम, न्युट्राटोन) वापरल्यास प्रतिकूल हवामानात देखील वाढ चांगली झाल्याने अधिक उत्पादन मिळते. त्याचबरोबर दर्जाही सुधारतो त्यामुळे भावदेखील चांगला मिळतो. पंढरपूर, बारामती, जुन्नर भागामध्ये कलिंगडाची लागवड बाराही महिने करतात व ही कलिंगडे आडहंगामामध्ये निर्यातदेखील करतात."
+        android:textColor="#000000"
+        android:textSize="20dp"
+        android:layout_marginTop="10dp"
+        android:paddingLeft="5dp"
+        />
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="लागवड  "
+        android:textColor="#008e00"
+        android:textStyle="bold"
+        android:textSize="25dp"
+        android:layout_gravity="center_horizontal"
+        android:layout_marginTop="20dp"
+        />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="लागवड सरी पद्धतीने किंवा आळे पद्धतीने करतात. शक्यतो सरी पद्धतीनेच लागवड करावी. दोन मीटर अंतरावर सर्‍या काढून सरीच्या दोन्ही बाजूस दोन फुटावर लहान लहान आळी तयार करावी. एका आळ्यामध्ये एकच बी लावावे. पाणी कमी असल्यास १० -१० फुट अंतरावर सरी काढून ४ -४ फुटावर लागवड करावी.
+
+थंडीमध्ये बियांची उगवण कमी होते. वाढ लवकर होत नाही. यासाठी कोमट पाण्यामध्ये 'जर्मिनेटर' ची प्रक्रिया करावी. यासाठी २५० ग्रॅम बियासाठी २५० मिली गरम पाण्यात अगोदर बी भिजवूननंतर २५ मिली जर्मिनेटर टाकावे. बियाणे जास्त असल्यास १ किलोपर्यंत १ लि. पाणी वरीलप्रमाणे घेऊन जर्मिनेटर २५ ते ३० मिली वापरावे अशा द्रावणात ३ ते ४ तास बी भिजवून सुकवून लावल्यास बियांची उगवण २ ते ३ दिवस लवकर व निरोगी होते. मर होत नाही.
+
+"
+        android:textColor="#000000"
+        android:textSize="20dp"
+        android:layout_marginTop="10dp"
+        android:paddingLeft="5dp"
+        />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="पाणी"
+        android:textColor="#008e00"
+        android:textStyle="bold"
+        android:textSize="25dp"
+        android:layout_gravity="center_horizontal"
+        android:layout_marginTop="20dp"
+        />
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="पाच ते सहा दिवसांचे अंतराने पाणी द्यावे. थंडीमध्ये दुपारी ११ ते ४ ह्या वेळेत व उन्हाळ्यामध्ये सकाळी ९ च्या आत पाणी द्यावे. पाण्याच्या पाळ्या अनियमित दिल्यास फळे तडकण्याचा किंवा त्यांचा आकार बदलण्याचा संभव असतो."
+        android:textColor="#000000"
+        android:textSize="20dp"
+        android:paddingLeft="5dp"
+        android:layout_marginTop="10dp"
+        />
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="खते"
+        android:textColor="#008e00"
+        android:textStyle="bold"
+        android:textSize="25dp"
+        android:layout_gravity="center_horizontal"
+        android:layout_marginTop="20dp"
+        />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="कल्पतरू' सेंद्रिय खत एकरी १०० किलो वापरावे. खत देताना ५० -५० किलो कल्पतरू खत २ टप्प्यात द्यावे. सुरुवातीला बी टोकतान आणि नंतर खुरपणीच्या वेळेस पीक १ ते १।। महिन्याचे झाल्यावर बांगडी पद्धतीने द्यावे. रासायनिक खतांचा वापर करावयाचा असल्यास एक महिन्याच्या अंतराने मिश्रखत आळे पद्धतीने प्रत्येकी ३० ग्रॅम द्यावे. फूल लागल्यानंतर ५० ग्रॅम व गाठी/ गुंडी लागल्यानंतर ६० ग्रॅम मिश्रखत द्यावे. फळांच्या गाठी मोठ्या झाल्यानंतर खत देवू नये. कल्पतरू सेंद्रिय खत असल्याने जमीन भुसभुशीत होऊन गारवा वाटतो त्यामुळे वेलीची उन्नग्रहण करण्याची क्रिया सुरळीत होते. त्यामुळे वेलींची वाढ जोमाने होऊन फळांचे पोषण चांगले होते. उन्हाळी कलिंगड पिकला शेणखत, कंपोस्ट खतापेक्षा किंवा सर्व उन्हाळी पिकासाठी कल्पतरू खत हे अतिशय फायदेशीर ठरले असल्याचे शेतकर्‍यांनी आम्हास कळविले आहे."
+        android:textColor="#000000"
+        android:textSize="20dp"
+        android:paddingLeft="5dp"
+        android:layout_marginTop="10dp"
+        />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="विशेष काळजी"
+        android:textColor="#008e00"
+        android:textStyle="bold"
+        android:textSize="25dp"
+        android:layout_gravity="center_horizontal"
+        android:layout_marginTop="20dp"
+        />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="फळे लागल्यानंतर फळांचा पाण्याशी संपर्क येणार नाही, याची काळजी घ्यावी. पाण्याशी फळांचा संपर्क आल्यास फळे सडतात. यासाठी फळे दोन सर्‍यांच्या उंचवट्यावर ठेवावी किंवा फळाखाली चगाळ (भात, बाजरी, गव्हाचा काड ) ठेवावा. डॉ.बावसकर टेक्नॉंलॉजीची औषधे वापरल्यामुळे वेलींची वाढ व्यवस्थित व झपाट्याने होऊन फळे लागल्यावर थ्राईवर, क्रॉंपशाईनर , बरोबर राईपनर, न्युट्राटोन वापरल्याने फळे चांगली पोसतात. आकार, गोडी व वजन वाढून फळे लवकर व हवी तेव्हा मार्केटला आणता येतात. मोठ्या प्रमाणात भाव मिळून भरपूर नफा मिळतो. अशी उपाययोजना आजपर्यंत अनेक शेतकर्‍यांनी केली असून पुढे दिलेल्या शेतकर्‍यांच्या मुलाखती लक्षात घेण्यासारख्या आहेत."
+        android:textColor="#000000"
+        android:textSize="20dp"
+        android:paddingLeft="5dp"
+        android:layout_marginTop="10dp"
+        />
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="तोडणी व उत्पादन "
+        android:textColor="#008e00"
+        android:textStyle="bold"
+        android:textSize="25dp"
+        android:layout_gravity="center_horizontal"
+        android:layout_marginTop="20dp"
+        />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="साधारणपणे ९० ते १२० दिवसांमध्ये फळे काढणीस येतात."
+        android:textColor="#000000"
+        android:textSize="20dp"
+        android:paddingLeft="5dp"
+        android:layout_marginTop="10dp"
+        />
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="फळे काढणीस तयार झाली, हे कसे ओळखावे ? "
+        android:textColor="#008e00"
+        android:textStyle="bold"
+        android:textSize="25dp"
+        android:layout_gravity="center_horizontal"
+        android:layout_marginTop="20dp"
+        />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="१) फळांचा आकार गोलसर व मधे फुगीर तयार होऊन देठ सुकल्यानंतर बोटांच्या मागच्या बाजूने पक्क फळावर वाजवल्यावर डबडब असा आवाज येतो.
+                        २) फळांच्या देठावरील लव फळ पक्क होण्याच्या वेळी नाहीशी होते.
+
+                         ३) पूर्ण पक्क झालेल्या फळांचा जमिनीवर टेकलेला भाग पांढरट - पिवळसर रंगाचा दिसतो."
+        android:textColor="#000000"
+        android:textSize="20dp"
+        android:paddingLeft="5dp"
+        android:layout_marginTop="10dp"
+        />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="उत्पादन "
+        android:textColor="#008e00"
+        android:textStyle="bold"
+        android:textSize="25dp"
+        android:layout_gravity="center_horizontal"
+        android:layout_marginTop="20dp"
+        />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="साधारण एकरी २० ते ४५ टन उत्पादन मिळू शकते."
+        android:textColor="#000000"
+        android:textSize="20dp"
+        android:paddingLeft="5dp"
+        android:layout_marginTop="10dp"
+        />
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/btnwatermelon"
+        android:text="अधिक माहिती"
+        android:layout_margin="20dp"
+        android:layout_gravity="center_horizontal"
+        android:textColor="#ffffff"
+        android:textSize="25dp"
+        android:background="#00ff00"
+        android:padding="5dp"
+        />
+
+
+</LinearLayout>
+</ScrollView>

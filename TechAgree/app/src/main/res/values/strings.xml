@@ -1,0 +1,21 @@
+<resources>
+    <string name="app_name">अ‍ॅग्री टेक</string>
+
+    <string name="hello_world">Hello world!</string>
+    <string name="action_settings">Settings</string>
+    <string name="title_activity_login">Login</string>
+    <string name="title_activity_season">Season</string>
+    <string name="title_activity_summer">Summer</string>
+    <string name="title_activity_registration">registration</string>
+    <string name="title_activity_rainy">Rainy</string>
+    <string name="title_activity_winter">Winter</string>
+    <string name="title_activity_watermelon">Watermelon</string>
+    <string name="title_activity_kakadi">Kakadi</string>
+    <string name="title_activity_dodka">Dodka</string>
+    <string name="title_activity_ghosali">Ghosali</string>
+    <string name="title_activity_karli">Karli</string>
+    <string name="title_activity_dudhibhopla">Dudhibhopla</string>
+    <string name="title_activity_tendali">Tendali</string>
+    <string name="title_activity_bhendi">Bhendi</string>
+    <string name="title_activity_kapus">Kapus</string>
+</resources>

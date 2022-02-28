@@ -1,0 +1,66 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:fillViewport="false"
+    android:background="#ffffff"
+    >
+
+<RelativeLayout
+    xmlns:tools="http://schemas.android.com/tools" android:layout_width="match_parent"
+    android:layout_height="match_parent" android:paddingLeft="@dimen/activity_horizontal_margin"
+    android:paddingRight="@dimen/activity_horizontal_margin"
+    android:paddingTop="@dimen/activity_vertical_margin"
+    android:paddingBottom="@dimen/activity_vertical_margin"
+    tools:context="com.example.hp.techagree.Summer">
+
+
+
+    <ImageButton
+        android:id="@+id/summer_call"
+        android:layout_width="100dp"
+        android:layout_height="80dp"
+        android:src="@drawable/call"
+        android:scaleType="fitXY"
+        android:background="#00ff0000"
+        android:layout_marginLeft="15dp"
+        android:layout_marginTop="7dp"
+        />
+
+    <ImageButton
+        android:id="@+id/summer_whatsapp"
+        android:layout_width="100dp"
+        android:layout_height="80dp"
+        android:src="@drawable/whatsapp"
+        android:scaleType="fitXY"
+        android:background="#00ff0000"
+        android:layout_toRightOf="@+id/summer_call"
+        android:layout_marginLeft="25dp"
+        android:layout_marginTop="7dp"
+        />
+
+    <Button
+        android:id="@+id/summer_market"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Market Rate"
+        android:textColor="#ffffff"
+        android:background="#2fff69"
+        android:textSize="22dp"
+        android:layout_marginTop="20dp"
+        android:padding="5dp"
+        android:layout_toRightOf="@+id/summer_whatsapp"
+        android:layout_marginLeft="15dp"
+        />
+  <ListView
+      android:id="@+id/summer_list"
+      android:layout_width="match_parent"
+      android:layout_height="700dp"
+      android:layout_marginTop="20dp"
+      android:layout_marginLeft="5dp"
+      android:layout_below="@+id/summer_call"
+      ></ListView>
+
+
+   </RelativeLayout>
+</ScrollView>

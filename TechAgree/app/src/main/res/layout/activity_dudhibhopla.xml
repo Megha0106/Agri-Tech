@@ -1,0 +1,238 @@
+<ScrollView
+    android:layout_height="match_parent"
+    android:layout_width="wrap_content"
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools">
+
+<LinearLayout
+    android:layout_width="match_parent"
+    android:layout_height="match_parent" android:paddingLeft="@dimen/activity_horizontal_margin"
+    android:paddingRight="@dimen/activity_horizontal_margin"
+    android:paddingTop="@dimen/activity_vertical_margin"
+    android:paddingBottom="@dimen/activity_vertical_margin"
+    tools:context="com.example.hp.techagree.Dudhibhopla"
+    android:orientation="vertical"
+    >
+
+    <TextView
+        android:text="दुधीभोपळा"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textColor="#ff0000"
+        android:textSize="30dp"
+        android:textStyle="bold"
+        android:layout_gravity="center_horizontal"
+        />
+    <ImageView
+        android:layout_width="match_parent"
+        android:layout_height="200dp"
+        android:src="@drawable/luffa"
+        android:scaleType="fitXY"
+        android:layout_marginTop="20dp"
+        android:background="#ff5544"
+        />
+
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="महत्त्व"
+        android:textColor="#008e00"
+        android:textStyle="bold"
+        android:textSize="25dp"
+        android:layout_gravity="center_horizontal"
+        android:layout_marginTop="20dp"
+        />
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="वेलवर्गीय फळभाज्यांना आहारामध्ये अनन्यसाधारण महत्त्व असून शरीराच्या वाढीस, पोषणास व आरोग्य रक्षणासाठी आवश्यक असलेली खनिजद्रव्ये, प्रोटिन्स, फॉस्फरस, कॅल्शिअम, अ, ब, क, इ. जीवनसत्त्वे भरपूर प्रमाणात आहेत. या वेलवर्गीय फळभाज्यांचा उपयोग अनेक विकारांवर गुणकारी म्हणून केला जाऊ शकतो. उदा. कारली या वेलवर्गीय फळभाजीचा उपयोग मधुमेहाचा विकार असणाऱ्या व्यक्तींनी आहारामध्ये आठवड्यातून एकदा किंवा दोनदा केल्यास साखरेचे प्रमाण कमी होऊन मधुमेह आटोक्यात येतो.
+                      भोपळा तिखट व उष्ण असून संधिवात, दाताचे रोग, दातखिळी, धनुर्वायु यांचा नाश करतो. भोपळ्याचा वेल मधुर, शीतल, तर्पणकारक, गुरू, रूचि कर, पौष्टिक, धातुवर्धक बलप्रद, पित्तनाशक आहे."
+        android:textColor="#000000"
+        android:textSize="20dp"
+        android:paddingLeft="5dp"
+        android:layout_marginTop="10dp"
+        />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="जमीन"
+        android:textColor="#008e00"
+        android:textStyle="bold"
+        android:textSize="25dp"
+        android:layout_gravity="center_horizontal"
+        android:layout_marginTop="20dp"
+        />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="दुधीभोपळ्यासाठी हलकी ते मध्यम आणि पाण्याचा उत्तम निचरा होणारी सुपीक जमीन या पिकाच्या लागवडीसाठी निवडावी. या पिकाच्या लागवडीसाठी हलकी जमीन निवडल्यास अशा जमिनीत भरपूर खते घालावीत."
+        android:textColor="#000000"
+        android:textSize="20dp"
+        android:layout_marginTop="10dp"
+        android:paddingLeft="5dp"
+        />
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="हवामान "
+        android:textColor="#008e00"
+        android:textStyle="bold"
+        android:textSize="25dp"
+        android:layout_gravity="center_horizontal"
+        android:layout_marginTop="20dp"
+        />
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="दुधीभोपळ्यासाठी उष्ण आणि दमट हवामान चांगले मानवते."
+        android:textColor="#000000"
+        android:textSize="20dp"
+        android:layout_marginTop="10dp"
+        android:paddingLeft="5dp"
+        />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text=" लागवडीचा हंगाम"
+        android:textColor="#008e00"
+        android:textStyle="bold"
+        android:textSize="25dp"
+        android:layout_gravity="center_horizontal"
+        android:layout_marginTop="20dp"
+        />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="भोपळ्याला उन्हाळ्यामध्ये व जून, जुलैस चांगला भाव असतो. मुख्यत : जानेवारीमध्ये चांगल्याप्रकारे मागणी असते. ज्या शेतकऱ्यांकडे शेतमजुरांची कमतरता आहे व देखभाल करण्यासारखी परिस्थिती नाही, अशा शेतकऱ्यांनी दुधी भोपळ्याची लागवड जरूर करावी. १ ते २ फूट लांबीचे भोपळे एक्सपोर्ट होतात. दुधीभोपळा हे पीक उष्ण व दमट हवामानात चांगले येते म्हणून याची लागवड खरीप आणि उन्हाळी हंगामात केली जाते. खरीप हंगामात मे - जून महिनामध्ये आणि उन्हाळी हंगामात फेब्रुवारी - मार्च महिन्यामध्ये लागवड करतात."
+        android:textColor="#000000"
+        android:textSize="20dp"
+        android:layout_marginTop="10dp"
+        android:paddingLeft="5dp"
+        />
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="लागवड  "
+        android:textColor="#008e00"
+        android:textStyle="bold"
+        android:textSize="25dp"
+        android:layout_gravity="center_horizontal"
+        android:layout_marginTop="20dp"
+        />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="दुधीभोपळा या पिकाची लागवड रुंद सारी - वरंबा पद्धतीने केली जाते. दुधीभोपळा या पिकाची लागवड ओळीत २ ते २.५ मीटर अंतर व दोन वेलीत १ते १.५ मीटर अंतर ठेवून १ ते २ बिया टोकून करतात."
+        android:textColor="#000000"
+        android:textSize="20dp"
+        android:layout_marginTop="10dp"
+        android:paddingLeft="5dp"
+        />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="पाणी"
+        android:textColor="#008e00"
+        android:textStyle="bold"
+        android:textSize="25dp"
+        android:layout_gravity="center_horizontal"
+        android:layout_marginTop="20dp"
+        />
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="दुधीभोपळ्याची लागवड केल्यानंतर उगवण होईपर्यंत दोन पाण्याच्या पाळ्या द्याव्यात. उन्हाळयामध्ये ५ ते ६ दिवसांनी पाणी द्यावे. वेलींना फुले आल्यापासून ते फळधारणा होताना नियमित पाणी द्यावे. फळे पोसण्यासाठी भरपूर पाणी लागते.
+                      भोपळ्यास थंडीमध्ये सकाळी १० ते दुपारी २ ह्या वेळेस पाणी द्यावे. तसेच उन्हाळ्यामध्ये सकाळी ९ ते १० च्या आत पाणी द्यावे. (विदर्भ, मराठवाडा, खानदेश ह्या भागामध्ये सकाळी ९ च्या आत पाणी द्यावे.) थंडीमध्ये आठ दिवसांच्या अंतराने पाणी द्यावे. पाणी देताना 'भीज पाणी' (संपूर्ण पाणी देणे) न देता 'टेक पाणी' (हलके पाणी देणे) द्यावे. म्हणजेच वेलीच्या खोडास पाणी लागणार नाही, याची काळजी घ्यावी."
+        android:textColor="#000000"
+        android:textSize="20dp"
+        android:paddingLeft="5dp"
+        android:layout_marginTop="10dp"
+        />
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="खते"
+        android:textColor="#008e00"
+        android:textStyle="bold"
+        android:textSize="25dp"
+        android:layout_gravity="center_horizontal"
+        android:layout_marginTop="20dp"
+        />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="भोपळ्यास शक्यतो रासायनिक खतांचा वापर करू नये. बी लागवडीच्या जागी चांगले कुजलेले शेणखत एक घमेले आणि कल्पतरू सेंद्रिय खत १०० ग्रॅम देवून लागवड करावी. लागवडीनंतर दीड महिन्यांनी कल्पतरू सेंद्रिय खत वेलाच्या खोडाभोवती गोलाकार प्रत्येकी ५० ग्रॅम द्यावे."
+        android:textColor="#000000"
+        android:textSize="20dp"
+        android:paddingLeft="5dp"
+        android:layout_marginTop="10dp"
+        />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="वळण, आधार देणे आणि आंतरमशागत "
+        android:textColor="#008e00"
+        android:textStyle="bold"
+        android:textSize="25dp"
+        android:layout_gravity="center_horizontal"
+        android:layout_marginTop="20dp"
+        />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="शेत तणविरहित ठेवावे. त्यासाठी गरजेनुसार दोन ते तीन खुरपण्या कराव्यात. या पिकाच्या वेलींना वळण देणे आवश्यक असते. वेलीवर लागलेली फुले आणि फळांचा पाण्याशी संपर्क येणार नाही याची काळजी घ्यावी. दुधीभोपळा ह्या पिकास उन्हाळ्यात मांडवाची आवश्यकता असतेच असे नाही, मात्र दुधीभोपळा या पिकास पावसाळी हंगामात मांडव आवश्यक असतो. यामुळे उत्पादन जास्त येऊन फळाची प्रत चांगली राहते. मांडव करणे शक्य नसल्यास या पिकाच्या वेली तुराट्या, काट्या अथवा इतर फांद्यांवर चढवाव्यात."
+        android:textColor="#000000"
+        android:textSize="20dp"
+        android:paddingLeft="5dp"
+        android:layout_marginTop="10dp"
+        />
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="काढणी आणि उत्पादन "
+        android:textColor="#008e00"
+        android:textStyle="bold"
+        android:textSize="25dp"
+        android:layout_gravity="center_horizontal"
+        android:layout_marginTop="20dp"
+        />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="२ महिन्यांनी भोपळे काढणीस येतात. आठवड्यातून किंवा दोनदा काढणी करावी. दुधीभोपळा या पिकाची कोवळी फळे जून होण्यापूर्वी तोडावीत. कोवळ्या फळांना बाजारात अधिक किंमत मिळते. काढणीस तयार झालेल्या फळांचे देठ धारदार चाकूने कापावेत. खराब, वेडीवाकडी आणि रोगट फळे वेलीवरून काढून फेकून द्यावीत. कोणत्याही परिस्थितीत वेलीवर रोगट आणि किडकी फळे वाढू देऊ नयेत. अशाप्रकारे सर्व तर्‍हेची काळजी घेऊन आरोग्याच्या दृष्टीने उपयुक्त व सर्वसामान्यांना परवडणार्‍या व सर्व थरांतील लोकांमध्ये चांगली मागणी असणार्‍या दुधी भोपळ्याची मार्केटचा व्यवस्थित अभ्यास करून व्यापारी तत्त्वावर लागवड केल्यास उत्पादन अधिक तर मिळतेच, तसेच भावही चांगला मिळून पीक फायदेशीर ठरते. ह्या पिकापासून हेक्टरी १२ ते १५ टन उत्पादन मिळते. दुधीभोपळ्याच्या वेली मांडवावर वाढविल्यास हेक्टरी दुप्पट म्हणजेच २५ टन उत्पादन मिळू शकते."
+        android:textColor="#000000"
+        android:textSize="20dp"
+        android:paddingLeft="5dp"
+        android:layout_marginTop="10dp"
+        />
+
+
+
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/btnluffa"
+        android:text="अधिक माहिती"
+        android:layout_margin="20dp"
+        android:layout_gravity="center_horizontal"
+        android:textColor="#ffffff"
+        android:textSize="25dp"
+        android:background="#00ff00"
+        android:padding="5dp"
+        />
+
+
+
+</LinearLayout>
+</ScrollView>

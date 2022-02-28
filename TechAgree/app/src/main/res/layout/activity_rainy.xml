@@ -1,0 +1,62 @@
+ <ScrollView
+    android:layout_height="wrap_content"
+   android:layout_width="match_parent"
+    android:fillViewport="false"
+    xmlns:android="http://schemas.android.com/apk/res/android" >
+
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools" android:layout_width="match_parent"
+    android:layout_height="match_parent" android:paddingLeft="@dimen/activity_horizontal_margin"
+    android:paddingRight="@dimen/activity_horizontal_margin"
+    android:paddingTop="@dimen/activity_vertical_margin"
+    android:paddingBottom="@dimen/activity_vertical_margin"
+    tools:context="com.example.hp.techagree.Rainy"
+    android:background="#ffffff"
+    >
+
+    <ImageButton
+        android:id="@+id/rainy_call"
+        android:layout_width="100dp"
+        android:layout_height="80dp"
+        android:src="@drawable/call"
+        android:layout_marginTop="7dp"
+        android:layout_marginLeft="15dp"
+        android:scaleType="fitXY"
+        android:background="#00ff0000"
+        />
+    <ImageButton
+        android:id="@+id/rainy_whatsapp"
+        android:layout_width="100dp"
+        android:layout_height="80dp"
+        android:src="@drawable/whatsapp"
+        android:scaleType="fitXY"
+        android:layout_marginLeft="25dp"
+        android:layout_marginTop="7dp"
+        android:layout_toRightOf="@+id/rainy_call"
+        android:background="#00ff0000"
+        />
+    <Button
+        android:id="@+id/rainy_market"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Market Rate"
+        android:background="#2fff69"
+        android:padding="5dp"
+        android:textColor="#ffffff"
+        android:textSize="22dp"
+        android:layout_marginLeft="15dp"
+        android:layout_marginTop="20dp"
+        android:layout_toRightOf="@+id/rainy_whatsapp"
+        />
+
+    <ListView
+        android:id="@+id/rainy_list"
+        android:layout_width="match_parent"
+        android:layout_height="700dp"
+        android:layout_marginLeft="5dp"
+        android:layout_marginTop="20dp"
+        android:layout_below="@+id/rainy_call"
+        ></ListView>
+
+</RelativeLayout>
+</ScrollView>

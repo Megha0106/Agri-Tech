@@ -1,0 +1,256 @@
+<ScrollView
+    android:layout_height="match_parent"
+    android:layout_width="wrap_content"
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools" >
+
+<LinearLayout
+    android:layout_width="match_parent"
+    android:layout_height="match_parent" android:paddingLeft="@dimen/activity_horizontal_margin"
+    android:paddingRight="@dimen/activity_horizontal_margin"
+    android:paddingTop="@dimen/activity_vertical_margin"
+    android:paddingBottom="@dimen/activity_vertical_margin"
+    android:orientation="vertical"
+    tools:context="com.example.hp.techagree.Karli">
+
+
+    <TextView android:text="कारली"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textColor="#ff0000"
+        android:textSize="30dp"
+        android:textStyle="bold"
+        android:layout_gravity="center_horizontal"
+        />
+    <ImageView
+        android:layout_width="match_parent"
+        android:layout_height="200dp"
+        android:src="@drawable/bitterguard"
+        android:scaleType="fitXY"
+        android:layout_marginTop="20dp"
+        android:background="#ff5544"
+        />
+
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="महत्त्व"
+        android:textColor="#008e00"
+        android:textStyle="bold"
+        android:textSize="25dp"
+        android:layout_gravity="center_horizontal"
+        android:layout_marginTop="20dp"
+        />
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="कारली या वेलवर्गीय फळभाजीस आहारामध्ये अनन्यसाधारण महत्त्व असून यामध्ये शरीराच्या वाढीस, पोषण व आरोग्य रक्षणासाठी असलेली खनिजद्रव्ये, जीवनसत्त्वे भरपूर प्रमाणात आहेत. कारली या फळभाजीचा उपयोग मधुमेहाचा विकार असणाऱ्या व्यक्तींनी आठवड्यातून एकदा किंवा दोनदा केल्यास साखरेचे प्रमाण कमी होऊन मधुमेह आटोक्यात येतो. कारल्यातील असणाऱ्या कडू तत्त्वांमुळे, 'कडू कारले तुपात तळले साखरेत घोळले तरी ते कडूच' ही जुनी म्हण संयुक्तीक वाटते व ह्याच कडू तत्त्वामुळे शरीरातील कृमी कमी करता येतात.
+                      अशा आरोग्याच्या दृष्टीने महत्त्वपुर्ण असणाऱ्या, सर्वसामान्य लोकांना परवडणाऱ्या व मागणी बऱ्यापैकी (शहर, स्थानिक, परदेश निर्यातीस वाव असणारी) तसेच उत्पादन मोठ्या प्रमाणात असणाऱ्या कारली या वेलवर्गीय फळभाजीची व्यापारी तत्त्वावर लागवड केल्यास फायदेशीर ठरते."
+        android:textColor="#000000"
+        android:textSize="20dp"
+        android:paddingLeft="5dp"
+        android:layout_marginTop="10dp"
+        />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="जमीन"
+        android:textColor="#008e00"
+        android:textStyle="bold"
+        android:textSize="25dp"
+        android:layout_gravity="center_horizontal"
+        android:layout_marginTop="20dp"
+        />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="कारली हे पीक सर्व प्रकारच्या जमिनीत येऊ शकते. हलकी ते मध्यम प्रकारची, उत्तम निचरा असलेली जमीन कारल्यासाठी योग्य आहे. खारट, चोपण तसेच चुनखडीचे प्रमाण जास्त असलेल्या जमिनीत कारल्याची लागवड करू नये."
+        android:textColor="#000000"
+        android:textSize="20dp"
+        android:layout_marginTop="10dp"
+        android:paddingLeft="5dp"
+        />
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="हवामान "
+        android:textColor="#008e00"
+        android:textStyle="bold"
+        android:textSize="25dp"
+        android:layout_gravity="center_horizontal"
+        android:layout_marginTop="20dp"
+        />
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="कारली हे पिक उष्ण हवामानात चांगले येते. जास्त पाऊस असल्यास लागवड करू नये. कारण मुळांशी पाणी साचल्यास वेली पिवळ्या पडण्याची शक्यता असते."
+        android:textColor="#000000"
+        android:textSize="20dp"
+        android:layout_marginTop="10dp"
+        android:paddingLeft="5dp"
+        />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text=" लागवडीचा हंगाम"
+        android:textColor="#008e00"
+        android:textStyle="bold"
+        android:textSize="25dp"
+        android:layout_gravity="center_horizontal"
+        android:layout_marginTop="20dp"
+        />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="कोणत्याही हंगामात कारल्याची लागवड करतात. परंतु डॉ.बावसकर टेक्नॉंलॉजीनुसार कारल्याची लागवड सप्टेंबर ते डिसेंबर महिन्यात केल्यास जानेवारी - मार्च ते मे च्या दरम्यान कारली मार्केटला येतात व ह्या वेळेस भावही चांगला मिळतो, तसेच पुढे याचा डॉ.बावसकर टेक्नॉंलॉजीने खोडवाही घेता येतो."
+        android:textColor="#000000"
+        android:textSize="20dp"
+        android:layout_marginTop="10dp"
+        android:paddingLeft="5dp"
+        />
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="लागवड  "
+        android:textColor="#008e00"
+        android:textStyle="bold"
+        android:textSize="25dp"
+        android:layout_gravity="center_horizontal"
+        android:layout_marginTop="20dp"
+        />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="हिवाळ्यामध्ये उगवण लवकर व सशक्त होण्यासाठी बी २० - २५ मिली जर्मिनेटर + १ लि. गरम पाणी (९० डी.) यांच्या मिश्रणात १२ तास भिजवून व नंतर सुकवून लावल्यास उगवण तीन ते चार दिवस लवकर व सशक्त होते. मर होत नाही. एरवी उगवणीस १० ते १५ दिवस लागून निम्मी (५०%) सुद्धा होत नाही.
+                       लागवड मांडवावर नसेल तर ३' x २' वर केलेली लागवड चांगली असून पाणी कमी प्रमाणात उपलब्ध असल्यास हेच अंतर थोडेसे कमी ठेवावे. कारल्याची लागवड आळी पद्धतीने चार फुटावर आळी तयार करून देखील करतात. परंतु आळी तयार करण्यासाठी मजुरांचा खर्च वाढतो. म्हणून शक्यतो सरी - वरंबा पद्धतीने लागवड करावी. दक्षिणोत्तर सरी काढून पूर्व - पश्चिम लागवड वरंब्या च्या मध्यावर करावी. दोन सऱ्यामधील अंतर १ मीटर असावे. बियांना 'जर्मिनेटरची' प्रक्रिया केल्यास एका जागी २ ते ३ बिया लावायची गरज नाही. त्यामुळे २ ते ३ बिया लावण्याने जे बी वाया जाते ते उपयोगात आणता येते.
+                       मांडव पद्धतीने लागवडीसाठी ६' x ६' अंतर ठेवावे. ५ ते ६ पाने आल्यानंतर मांडव करावा. या पद्धतीने लागवड केल्यास वेलींना सुर्यप्रकाश भरपूर मिळतो. हवा खेळती राहते, कारले (फळ) मांडवावर लोंबकळते राहत असल्याने सरळ राहते. त्याचा मातीशी तसेच पाण्याशी संपर्क येत नसल्याने बुरशीजन्य रोगाचा प्रादुर्भाव कमी होतो. फळांचा दर्जा उत्तम राहतो. तसेच मालाची तोडणी चांगल्या प्रकारे करता येते."
+        android:textColor="#000000"
+        android:textSize="20dp"
+        android:layout_marginTop="10dp"
+        android:paddingLeft="5dp"
+        />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="पाणी"
+        android:textColor="#008e00"
+        android:textStyle="bold"
+        android:textSize="25dp"
+        android:layout_gravity="center_horizontal"
+        android:layout_marginTop="20dp"
+        />
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="पाणी नियमित देणे गरजेचे आहे. फळे लागणीच्या काळामध्ये पाणी अनियमित दिल्यास फळे वेडीवाकडी होऊन फळाची प्रत कमी होते. अधिक पाणी दिल्यास वेल बसण्याची शक्यता असते. वेली पिवळ्या पडतात. मध्यम खोलीच्या जमिनीस आठवड्यातून एकदा तर उन्हाळ्यात आठवड्यातून २ वेळा पाणी द्यावे. हलक्या जमिनीस गरजेनुसार पाणी द्यावे."
+        android:textColor="#000000"
+        android:textSize="20dp"
+        android:paddingLeft="5dp"
+        android:layout_marginTop="10dp"
+        />
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="खते"
+        android:textColor="#008e00"
+        android:textStyle="bold"
+        android:textSize="25dp"
+        android:layout_gravity="center_horizontal"
+        android:layout_marginTop="20dp"
+        />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="शक्यतो नैसर्गिक खताचा वापर करावा. चांगले कुजलेले शेणखत १२ ते १५ टन वापरावे. 'कल्पतरू' सेंद्रिय खतास कारले पीक उत्तम प्रतिसाद देऊन उत्पादन भरघोस मिळते, म्हणून एकरी १०० ते १५० किलो खत वापरावे. १०० किलो लागवडीच्या वेळी नंतर २१ ते २५ दिवसांनी गरजेनुसार ५० किलो खताची मात्रा द्यावी."
+        android:textColor="#000000"
+        android:textSize="20dp"
+        android:paddingLeft="5dp"
+        android:layout_marginTop="10dp"
+        />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="विशेष नोंद घेण्याजोगी विकृती व उपाय "
+        android:textColor="#008e00"
+        android:textStyle="bold"
+        android:textSize="25dp"
+        android:layout_gravity="center_horizontal"
+        android:layout_marginTop="20dp"
+        />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="थंडी व उन्हाळ्यातील कारल्यामध्ये विशिष्ट विकृती ही फार किचकट समस्या असून त्याची लक्षणे म्हणजे जुनी पाने पिवळी पडणे, जुन्या खोडावरील भागावर फोड, चट्टे, शेंड्याकडील पाने चेकच्या आकाराची पिवळसर दिसणे, करपून जाणे, फुले कमी लागणे, वेल नुसतेच वाढणे, फळे लागल्यास जागीच वाकणे, शेंड्याजवळ व देठाजवळ सुकणे, अकाली पिवळी पडणे, वजनास हलकी त्यापेक्षा निकृष्ट दर्जाची होणे, या सर्व विकृतींवर अनेक शेतकऱ्यांनी पुढीलप्रमाणे डॉ.बावसकर टेक्नॉंलॉजीच्या फवारण्या करून एकरी १ ते १।। लाख रुपये उत्पन्न मिळवून त्याचा खोडवा देखील घेतला आहे. अशा प्रकारचा तयार झालेला माल आखाती राष्ट्रात निर्यात होणाऱ्या मालाहून श्रेष्ठ निघतो, असा अनुभव आहे. वरील किडी/रोग विकृती टाळण्यासाठी सुरूवातीपासून खालील औषधांचे कोष्टक सांभाळल्यास कराली पीक रोगमुक्त राहून कारल्याचे उत्पादन व दर्जा यामध्ये हमखास वाढ होते."
+        android:textColor="#000000"
+        android:textSize="20dp"
+        android:paddingLeft="5dp"
+        android:layout_marginTop="10dp"
+        />
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="तोडणी "
+        android:textColor="#008e00"
+        android:textStyle="bold"
+        android:textSize="25dp"
+        android:layout_gravity="center_horizontal"
+        android:layout_marginTop="20dp"
+        />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="लागवडीनंतर ५५ ते ६० दिवसांनी तोडणी सुरू होते. १०० ते १५० दिवसांपर्यंत वेलीला कारली येत राहतात. वरीलप्रमाणे फवारण्या केल्याने कारली वर्षभरदेखील चालवता येतात."
+        android:textColor="#000000"
+        android:textSize="20dp"
+        android:paddingLeft="5dp"
+        android:layout_marginTop="10dp"
+        />
+
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="उत्पादन "
+        android:textColor="#008e00"
+        android:textStyle="bold"
+        android:textSize="25dp"
+        android:layout_gravity="center_horizontal"
+        android:layout_marginTop="20dp"
+        />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="संकरीत जातीपासून एकरी १० ते १५ टन आणि साधारण जातीपासून ४ ते ६ टन उत्पादन मिळते."
+        android:textColor="#000000"
+        android:textSize="20dp"
+        android:paddingLeft="5dp"
+        android:layout_marginTop="10dp"
+        />
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/btnbitterguard"
+        android:text="अधिक माहिती"
+        android:layout_margin="20dp"
+        android:layout_gravity="center_horizontal"
+        android:textColor="#ffffff"
+        android:textSize="25dp"
+        android:background="#00ff00"
+        android:padding="5dp"
+        />
+
+
+</LinearLayout>
+</ScrollView>

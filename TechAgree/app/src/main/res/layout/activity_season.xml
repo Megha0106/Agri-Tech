@@ -1,0 +1,65 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context="com.example.hp.techagree.Season">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="270dp"
+        android:background="@drawable/summer"
+        >
+        <Button
+            android:id="@+id/summer"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Summer"
+            android:textSize="25dp"
+            android:textColor="#ffffff"
+            android:layout_marginTop="200dp"
+            android:layout_marginLeft="303dp"
+            android:background="#00f3ffe1"
+
+            />
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="260dp"
+        android:background="@drawable/rainyseason"
+        >
+        <Button
+            android:id="@+id/rainy"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Rainy Season"
+            android:textSize="25dp"
+            android:textColor="#ffffff"
+            android:background="#00f3ffe1"
+            android:layout_marginLeft="300dp"
+            android:layout_marginTop="195dp"
+            />
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="260dp"
+        android:background="@drawable/winter"
+        >
+
+        <Button
+            android:id="@+id/winter"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Winter"
+            android:textColor="#ffffff"
+            android:textSize="25dp"
+            android:background="#00f3ffe1"
+            android:layout_marginTop="220dp"
+            android:layout_marginLeft="315dp"
+            />
+    </LinearLayout>
+
+
+</LinearLayout>

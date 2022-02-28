@@ -1,0 +1,262 @@
+<ScrollView
+    android:layout_height="match_parent"
+    android:layout_width="wrap_content"
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    >
+
+<LinearLayout
+    android:layout_width="match_parent"
+    android:layout_height="match_parent" android:paddingLeft="@dimen/activity_horizontal_margin"
+    android:paddingRight="@dimen/activity_horizontal_margin"
+    android:paddingTop="@dimen/activity_vertical_margin"
+    android:paddingBottom="@dimen/activity_vertical_margin"
+    tools:context="com.example.hp.techagree.Kakadi"
+    android:orientation="vertical">
+
+    <TextView android:text="काकडी"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textColor="#ff0000"
+        android:textSize="30dp"
+        android:textStyle="bold"
+        android:layout_gravity="center_horizontal"
+        />
+    <ImageView
+        android:layout_width="match_parent"
+        android:layout_height="200dp"
+        android:src="@drawable/cucumber"
+        android:scaleType="fitXY"
+        android:layout_marginTop="20dp"
+        android:background="#ff5544"
+        />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="वेलवर्गीय फळांमध्ये काकडीला अनन्यसाधारण महत्त्व असून, वाढणार्‍या उष्णतेचा दाह कमी करण्यासाठी दुपारच्या कडक उन्हामुळे लागणारी तहान भागविण्यासाठी एस.टी. स्टँडवरती पुष्कळ लोक (प्रवासी) काकडी खाताना दिसतात. उच्च व मध्यमवर्गीय लोकांमध्ये काकडीचा उपयोग प्रकृतीस्वास्थ्यासाठी, सौंदर्यप्रसाधनासाठी म्हणून प्रचलित आहे हे आपण टी. व्ही. वरील जाहिरातीद्वारे पाहतोच आहे. कृत्रिम, रासायनिक औषधांपासून तयार केलेल्या कॉस्मेटिक्समुळे त्वचेवरील नंतर होणार्‍या वाईट परिणामांची भीती असणार नाही. सध्याच्या परिस्थितीमध्ये उन्हाळा कधी असतो असे म्हणण्यापेक्षा उन्हाळा कधी नसतो असे म्हणण्याची वेळ आली आहे. कच्छच्या वाळवंटातील 'केट्टा' सारखी अनेक बेटे वाढत्या तापमानामुळे तळपत असताना दिसतात. भारतामध्ये खानदेश, विदर्भ, नंदुरबार, मराठवाडा, मद्रास, ओरिसा, कर्नाटक भागांमध्ये अशा प्रकारचा सनस्ट्रोक टाळण्यासाठी, तसेच अॅसिडीटी, कॉन्सिटिपेशन कमी करण्यासाठी 'काकडी' अत्यंत गुणकारी आहे."
+        android:textSize="20dp"
+        android:textColor="#000000"
+        android:paddingLeft="5dp"
+        android:layout_marginTop="20dp"
+        />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="महत्त्व"
+        android:textColor="#008e00"
+        android:textStyle="bold"
+        android:textSize="25dp"
+        android:layout_gravity="center_horizontal"
+        android:layout_marginTop="20dp"
+        />
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="काकडी पिकाच्या १०० ग्रॅम खाण्यायोग्य भागात पुढीलप्रमाणे अन्नद्रव्ये असतात.
+                        पाणी - ९६.३० %, कर्बोहायड्रेट्स - २.५०%, प्रोटीन्स - ०.४०%, फॅट्स - ०.१०%, तंतुमय पदार्थ - ०. ४० %, खनिजे - ०.३०%, कॅल्शिअम - ०.०१%, फॉस्फरस - ०.०३%, लोह - ०.००२%, जीवनसत्त्व 'क' - ०.००७%, उष्मांक (कॅलरी) -१३."
+        android:textColor="#000000"
+        android:textSize="20dp"
+        android:paddingLeft="5dp"
+        android:layout_marginTop="10dp"
+        />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="जमीन"
+        android:textColor="#008e00"
+        android:textStyle="bold"
+        android:textSize="25dp"
+        android:layout_gravity="center_horizontal"
+        android:layout_marginTop="20dp"
+        />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="काकडी या पिकाला हलकी ते मध्यम आणि उत्तम निचर्‍याची जमीन लागते. हलक्या जमिनीत लागवड केल्यास पीक लवकर तयार होते. पावसाळ्यात जमिनीत पाणी साचू नये आणि उन्हाळ्यात जमिन तडकू नये, अशी जमीन असावी. काकडीचे भरपूर उत्पादन मिळण्यासाठी जमीन कसदार असावी."
+        android:textColor="#000000"
+        android:textSize="20dp"
+        android:layout_marginTop="10dp"
+        android:paddingLeft="5dp"
+        />
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="हवामान "
+        android:textColor="#008e00"
+        android:textStyle="bold"
+        android:textSize="25dp"
+        android:layout_gravity="center_horizontal"
+        android:layout_marginTop="20dp"
+        />
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="काकडीला उष्ण हवामान चांगले मानवते. कमी तापमान आणि जास्त आर्द्रता असल्यास काकडीच्या पिकाची वाढ चांगली होते नाही. रोग व किडीचे प्रमाण वाढते. वातावरणाचे तापमान ११ डी. सेल्सिअसपेक्षा कमी झाल्यास बियांची उगवण चांगली होत नाही. तापमान १८ ते ३० अंश सेल्सिअसच्या दरम्यान असल्यास बियांची उगवण चांगली होते. साधारणपणे ३० ते ३५ अंश सेल्सिअस तापमानात पिकाची वाढ चांगली होते. भरपूर सूर्यप्रकाश या पिकास चांगला मानवतो."
+        android:textColor="#000000"
+        android:textSize="20dp"
+        android:layout_marginTop="10dp"
+        android:paddingLeft="5dp"
+        />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text=" लागवडीचा हंगाम"
+        android:textColor="#008e00"
+        android:textStyle="bold"
+        android:textSize="25dp"
+        android:layout_gravity="center_horizontal"
+        android:layout_marginTop="20dp"
+        />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="काकडीची लागवड उन्हाळ्यात सुरुवातीला जानेवारी - फेब्रुवारी महिन्यात आणि पावसाळ्याच्या सुरुवातीला जून - जुलै महिन्यात करतात. जास्त पावसाच्या भागात हिवाळ्याच्या सुरुवातीला सप्टेंबर - ऑक्टोबर महिन्यात लागवड केली जाते."
+        android:textColor="#000000"
+        android:textSize="20dp"
+        android:layout_marginTop="10dp"
+        android:paddingLeft="5dp"
+        />
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="लागवड  "
+        android:textColor="#008e00"
+        android:textStyle="bold"
+        android:textSize="25dp"
+        android:layout_gravity="center_horizontal"
+        android:layout_marginTop="20dp"
+        />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="काकडीवर्गीय पिकांची लागवड पाट पद्धतीने किंवा आळे पद्धतीने करतात. आळे पद्धतीने पिकाला जास्त पाणी द्यावे लागते आणि तणांची वाढही जास्त होते. काकडीच्या लागवडीसाठी रुंद सरी - वरंबा पद्धत चांगली मानली जाते. काकडीच्या जातीनुसार काकडीची लागवड ९० सेंमी अंतरावर टोकून करतात. दोन वेलींत ४५ सेंमी अंतर ठेवावे. लांब वेलींत ६० सेंमी अंतर ठेवावे. पाटाच्या एका बाजूने वरंब्याच्या टोकापासून एकतृतीयांश अंतरावर खुरप्याच्या सहाय्याने लहानसा खळगा करून त्यामध्ये १ ते २ बिया एका ठिकाणी टोकून मातीने झाकून हाताने दाबून घ्याव्यात. पाटात पाणी सोडून पाट - सर्‍या भिजवाव्यात. पाटातील पाण्याची पातळी टोकलेल्या बियांच्या जागेच्या खाली असावी."
+        android:textColor="#000000"
+        android:textSize="20dp"
+        android:layout_marginTop="10dp"
+        android:paddingLeft="5dp"
+        />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="पाणी"
+        android:textColor="#008e00"
+        android:textStyle="bold"
+        android:textSize="25dp"
+        android:layout_gravity="center_horizontal"
+        android:layout_marginTop="20dp"
+        />
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="थंडीमध्ये सकाळी १० ते दुपारी २ ह्यावेळेस पाणी द्यावे. तसेच उन्हाळ्यामध्ये सकाळी ९ ते १० च्या आत पाणी द्यावे. विदर्भ, मराठवाडा, खानदेश ह्या भागांमध्ये सकाळी ९ च्या आत पाणी द्यावे.
+थंडीमध्ये आठ दिवसांचे अंतराने पाणी द्यावे. पाणी देताना 'भीज पाणी' (संपूर्ण पाणी देणे) न देत 'टेक पाणी' (हलके पाणी देणे) द्यावे."
+        android:textColor="#000000"
+        android:textSize="20dp"
+        android:paddingLeft="5dp"
+        android:layout_marginTop="10dp"
+        />
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="खते"
+        android:textColor="#008e00"
+        android:textStyle="bold"
+        android:textSize="25dp"
+        android:layout_gravity="center_horizontal"
+        android:layout_marginTop="20dp"
+        />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="काकडी या पिकासाठी एकरी ६ ते ८ टन शेणखत आणि कल्पतरू सेंद्रिय खत १५० किलो द्यावे. खते वेलीभोवती बांगडी पद्धतीने द्यावीत आणि त्यानंतर पाणी द्यावे."
+        android:textColor="#000000"
+        android:textSize="20dp"
+        android:paddingLeft="5dp"
+        android:layout_marginTop="10dp"
+        />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="विशेष काळजी"
+        android:textColor="#008e00"
+        android:textStyle="bold"
+        android:textSize="25dp"
+        android:layout_gravity="center_horizontal"
+        android:layout_marginTop="20dp"
+        />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="उन्हाळ्यामध्ये काकडीमध्ये विकृती (पिवळी पडण्याचे प्रमाण) अधिक असते. त्याकरीता 'कॉपशाईनर' या औषधाचे प्रमाण सप्तामृतामध्ये थोडेसे वाढविणे व राईपनर निम्म्या प्रमाणात वापरले तर एक्सपोर्ट दर्जाची काकडी मिळते. अशा काकडीस बाजारभावापेक्षा निश्चितच अधिक भाव मिळतो. असे अनेक शेतकर्‍यांनी अनुभवल्याचे कळविले आहे."
+        android:textColor="#000000"
+        android:textSize="20dp"
+        android:paddingLeft="5dp"
+        android:layout_marginTop="10dp"
+        />
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="तोडणी व उत्पादन "
+        android:textColor="#008e00"
+        android:textStyle="bold"
+        android:textSize="25dp"
+        android:layout_gravity="center_horizontal"
+        android:layout_marginTop="20dp"
+        />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="काकडीची तोडणी योग्य वेळी करणे महत्त्वाचे असते. काकडीचा उपयोग कोशिंबिरीसाठी जास्त प्रमाणात होतो, म्हणून काकडी कोवळी, लुसलुशीत अवस्थेतच तोडावी. बी टोकल्यापासून साधारणत: ३० - ४० दिवसांत फळे येतात. दर २ -४ दिवासांनी तोडणी करावी. तथापि नंतर काकडी वाकडी, पिवळी पडते असे प्रकार घडतात. त्यामुळे तिला 'बदला काकडी' असे संबोधण्यात येते व अशा काकडीचा दर २ ते ३ रू. किलो असा मिळतो. तर उत्कृष्ट दर्जाच्या काकडीचा दर थंडीमध्ये ८ ते २० रुपये किलोपर्यंत मोठ्या मार्केटमध्ये होलसेल मिळू शकतो."
+        android:textColor="#000000"
+        android:textSize="20dp"
+        android:paddingLeft="5dp"
+        android:layout_marginTop="10dp"
+        />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="उत्पादन "
+        android:textColor="#008e00"
+        android:textStyle="bold"
+        android:textSize="25dp"
+        android:layout_gravity="center_horizontal"
+        android:layout_marginTop="20dp"
+        />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="जाती व हंगामानुसार काकडीचे हेक्‍टरी 200 ते 300 क्विंटल पर्यंत उत्‍पादन मिळते."
+        android:textColor="#000000"
+        android:textSize="20dp"
+        android:paddingLeft="5dp"
+        android:layout_marginTop="10dp"
+        />
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/btnkakadi"
+        android:text="अधिक माहिती"
+        android:layout_margin="20dp"
+        android:layout_gravity="center_horizontal"
+        android:textColor="#ffffff"
+        android:textSize="25dp"
+        android:background="#00ff00"
+        android:padding="5dp"
+        />
+
+</LinearLayout>
+</ScrollView>

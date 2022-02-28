@@ -1,0 +1,102 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools" android:layout_width="match_parent"
+    android:layout_height="match_parent" android:paddingLeft="@dimen/activity_horizontal_margin"
+    android:paddingRight="@dimen/activity_horizontal_margin"
+    android:paddingTop="@dimen/activity_vertical_margin"
+    android:paddingBottom="@dimen/activity_vertical_margin"
+    android:background="@drawable/backgoundlogin1"
+    android:orientation="vertical"
+    tools:context="com.example.hp.techagree.Login">
+
+    <RelativeLayout
+        android:id="@+id/innerLayout"
+        android:layout_width="500dp"
+        android:layout_height="wrap_content"
+        android:layout_centerInParent="true"
+        >
+        <TextView
+            android:id="@+id/dashboard"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="लॉग इन"
+            android:textStyle="bold"
+            android:textSize="40dp"
+            android:textColor="#ffffff"
+            android:layout_centerHorizontal="true"
+            />
+
+        <EditText
+            android:id="@+id/username"
+            android:layout_width="460dp"
+            android:layout_height="50dp"
+            android:hint="वापरकर्तानाव"
+            android:background="#e9e9e9"
+            android:textColorHint="#aaaaaa"
+            android:textSize="20dp"
+            android:layout_below="@id/dashboard"
+            android:layout_marginTop="40dp"
+            android:layout_marginLeft="20dp"
+            android:layout_marginRight="20dp"
+            android:paddingLeft="10dp"
+
+            />
+        <EditText
+            android:id="@+id/password"
+            android:layout_width="460dp"
+            android:layout_height="50dp"
+            android:hint="संकेतशब्द"
+            android:background="#e9e9e9"
+            android:textColorHint="#aaaaaa"
+            android:textSize="20dp"
+            android:inputType="textPassword"
+            android:layout_below="@+id/username"
+            android:layout_marginTop="30dp"
+            android:layout_marginRight="20dp"
+            android:layout_marginLeft="20dp"
+            android:paddingLeft="10dp"
+            />
+
+        <Button
+            android:id="@+id/signIn"
+            android:layout_width="180dp"
+            android:layout_height="wrap_content"
+            android:text="साइन इन "
+            android:textSize="25dp"
+            android:textStyle="bold"
+            android:textColor="#ffffff"
+            android:background="#1aff56"
+            android:layout_below="@+id/password"
+            android:layout_marginTop="30dp"
+            android:layout_marginBottom="50dp"
+            android:layout_centerHorizontal="true"
+            android:padding="10dp"
+            />
+    </RelativeLayout>
+
+
+    <TextView
+        android:id="@+id/register"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="नवीन नोंदणी"
+        android:textColor="#ffffff"
+        android:textSize="30dp"
+        android:layout_below="@+id/innerLayout"
+        android:layout_marginTop="30dp"
+        android:layout_marginLeft="15dp"
+        />
+
+    <TextView
+        android:id="@+id/forgot"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="संकेतशब्द विसरलात?"
+        android:textSize="20dp"
+        android:textColor="#ffffff"
+        android:layout_below="@+id/innerLayout"
+        android:layout_toRightOf="@+id/register"
+        android:layout_marginTop="30dp"
+        android:layout_marginLeft="100dp"
+
+        />
+</RelativeLayout>

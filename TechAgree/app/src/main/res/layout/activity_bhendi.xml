@@ -1,0 +1,247 @@
+<ScrollView
+    android:layout_height="match_parent"
+    android:layout_width="wrap_content"
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools" >
+
+<LinearLayout
+
+    android:layout_width="match_parent"
+    android:layout_height="match_parent" android:paddingLeft="@dimen/activity_horizontal_margin"
+    android:paddingRight="@dimen/activity_horizontal_margin"
+    android:paddingTop="@dimen/activity_vertical_margin"
+    android:paddingBottom="@dimen/activity_vertical_margin"
+    android:orientation="vertical"
+    tools:context="com.example.hp.techagree.Bhendi">
+
+    <TextView
+        android:text="भेंडी"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textColor="#ff0000"
+        android:textSize="30dp"
+        android:textStyle="bold"
+        android:layout_gravity="center_horizontal"
+        />
+    <ImageView
+        android:layout_width="match_parent"
+        android:layout_height="200dp"
+        android:src="@drawable/ladyfinger"
+        android:scaleType="fitXY"
+        android:layout_marginTop="20dp"
+        android:background="#ff5544"
+        />
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="भेंडीच्या भाजीला वर्षभर भरपूर मागणी असते. महाराष्ट्रात भेंडी पिकाच्या लागवडीखाली ५,३०० हेक्टर क्षेत्र आहे. महाराष्ट्रातील बहुतेक जिल्ह्यांत भेंडीची लागवड कमीअधिक प्रमाणात केली जाते. पुणे, जळगाव, धुके, अहमदनगर, नाशिक आणि सातारा जिल्ह्यात भेंडीची लागवड मोठ्या प्रमाणात केली जाते. "
+        android:textColor="#000000"
+        android:textSize="20dp"
+        android:paddingLeft="5dp"
+        android:layout_marginTop="10dp"
+        />
+
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="महत्त्व"
+        android:textColor="#008e00"
+        android:textStyle="bold"
+        android:textSize="25dp"
+        android:layout_gravity="center_horizontal"
+        android:layout_marginTop="20dp"
+        />
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="भेंडीच्या १०० ग्रॅम खाण्यायोग्य भागातील अन्नघटकांचे प्रमाण पुढीलप्रमाणे - पाणी - ९०%, प्रोटीन्स -१.९ %, तंतुमय पदार्थ - १.२%, मॅग्नेशियम - ०.४ %, फॉस्फरस - ०.०६%, पोटॅशियम - ०.१%, कार्बोहायड्रेट्स - ६.४%, फॅट्स - ०.२%, खनिजे - ०.७ %, कॅल्शियम - ०.०७%, लोह -०.००२%, सल्फर -०.०३%, जीवनसत्त्व 'अ' - ८८ इंटरनॅशनल युनिट, जीवनसत्त्व 'क' - ०.००१, उष्मांक (कॅलरीज) -२२ %"
+        android:textColor="#000000"
+        android:textSize="20dp"
+        android:paddingLeft="5dp"
+        android:layout_marginTop="10dp"
+        />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="जमीन"
+        android:textColor="#008e00"
+        android:textStyle="bold"
+        android:textSize="25dp"
+        android:layout_gravity="center_horizontal"
+        android:layout_marginTop="20dp"
+        />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="मध्यम काळ्या किंवा पोयट्याच्या जमिनीत भेंडीची वाढ चांगली होते. हलक्या जमिनीमध्ये पिकाची वाढ जोमदार होते नसल्याने उत्पादन व दर्जामध्ये विपरीत परिणाम जाणवतो. त्यासाठी अशा जमिनीत जास्तीत - जास्त सेंद्रिय खतांचा वापर करावा. जमिनीचा सामू ६ ते ७ च्या दरम्यान असावा."
+        android:textColor="#000000"
+        android:textSize="20dp"
+        android:layout_marginTop="10dp"
+        android:paddingLeft="5dp"
+        />
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="हवामान "
+        android:textColor="#008e00"
+        android:textStyle="bold"
+        android:textSize="25dp"
+        android:layout_gravity="center_horizontal"
+        android:layout_marginTop="20dp"
+        />
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="भेंडीच्या पिकाला उष्ण आणि दमट हवामान चांगले मानवते. या पिकाच्या पेरणीची वेळ ही तापमानावर अवलंबून असते. तापमान १५ अंश सेल्सिअसपेक्षा कमी असेल तर बियांची उगवण चांगली होत नाही. तसेच तापमान ४२ अंश सेल्सिअसपेक्षा अधिक असल्यास फुलांची गळ होते. २० ते ४० अंश सेल्सिअस तापमानात हे पीक चांगले येते. अतिशय दमट हवेत या पिकावर भुरी रोगाचा उपद्रव आढळतो. ज्या ठिकाणी थंडी जास्त आणि अधिक काळ असते, अशा ठिकाणी रब्बी हंगामात हे पीक घेता येत नाही. परंतु समुद्र किनाऱ्याजवळच्या सौम्य हवामानाच्या पट्टयात हिवाळा सुरू होण्यापूर्वी पेरणी केल्यास भेंडीचे पीक घेता येते. उन्हाळ्यामधी ल हवामान भेंडीच्या वाढीस पोषक असून भेंडीचे उत्पादन मोठ्या प्रमाणावर येते."
+        android:textColor="#000000"
+        android:textSize="20dp"
+        android:layout_marginTop="10dp"
+        android:paddingLeft="5dp"
+        />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="एक्सपोर्टसाठीची लागवड पद्धत   "
+        android:textColor="#008e00"
+        android:textStyle="bold"
+        android:textSize="25dp"
+        android:layout_gravity="center_horizontal"
+        android:layout_marginTop="20dp"
+        />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="ज्या भागांमध्ये ऊस लागण मोठ्या प्रमाणावर करतात त्या भागांमध्ये सरीवर १ फूट x ६ इंच अशी टोकण पद्धतीने लागण करतात. एकरी ३ - ४ किलो बी लागते. फलटण भागातील शेतकरी अशा प्रकारची लागण मोठ्या प्रमाणात करीत असून ही भेंडी एक्सपोर्ट केली जाते."
+        android:textColor="#000000"
+        android:textSize="20dp"
+        android:layout_marginTop="10dp"
+        android:paddingLeft="5dp"
+        />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="पाणी"
+        android:textColor="#008e00"
+        android:textStyle="bold"
+        android:textSize="25dp"
+        android:layout_gravity="center_horizontal"
+        android:layout_marginTop="20dp"
+        />
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="जमिनीच्या मगदुराप्रमाणे व हंगामानुसार ५ ते ६ दिवसांच्या अंतराने भेंडीला पाणी द्यावे. उन्हाळ्यात ओलावा टिकून राहण्यासाठी वाळलेल्या गवताचे किंवा भाताच्या पेंढ्याचे आच्छादन दोन ओळीमध्ये घालावे त्यामुळे तणांचा बंदोबस्त होतो तसेच पाण्यातही बचत होते."
+        android:textColor="#000000"
+        android:textSize="20dp"
+        android:paddingLeft="5dp"
+        android:layout_marginTop="10dp"
+        />
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="खते"
+        android:textColor="#008e00"
+        android:textStyle="bold"
+        android:textSize="25dp"
+        android:layout_gravity="center_horizontal"
+        android:layout_marginTop="20dp"
+        />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="भेंडीला रासायनिक खताचा वापर करू नये. रासायनिक खताचे प्रमाण कमी - जास्त झाल्याने रोगाचा प्रादुर्भाव होऊन झाडांच्या वाढीवर व उत्पादनावर विपरीत परिणाम होतो. तेव्हा लागवडीपुर्वी शेणखत किंवा एकरी ७५ ते १०० किली कल्पतरू सेंद्रिय खत वापरावे. उगवणीनंतर १५ ते २१ दिवसांनी खुरपणी झाल्यानंतर पुन्हा एकरी २५ ते २१ दिवसांनी खुरपणी झाल्यानंतर पुन्हा एकरी २५ ते ३० किलो कल्पतरू सेंद्रिय खताचा डोस सरीतून द्यावा म्हणजे जमीन भुसभुशीत राहून भेंडीची वाढ व त्याचबरोबर फुलकळी भरपूर लागण्यास आणि माल पोसण्यास मदत होते."
+        android:textColor="#000000"
+        android:textSize="20dp"
+        android:paddingLeft="5dp"
+        android:layout_marginTop="10dp"
+        />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="भेंडी पिवळी पडणे "
+        android:textColor="#008e00"
+        android:textStyle="bold"
+        android:textSize="25dp"
+        android:layout_gravity="center_horizontal"
+        android:layout_marginTop="20dp"
+        />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="ही विकृती म्हणजे व्हायरस नव्हे काळ्या जमिनीमध्ये मुक्त चुना म्हणजे कॅल्शिअम कार्बोनेट छ (CaCo३ ) चे प्रमाण ५ ते १३ % असते. अशा जमिनीत भेंडी लावल्यास सोट्मुळांमुळे भेंडीची वाढ चांगली होते, परंतु मुक्त चुन्यामुळे भेंडी पिवळी पडते. मात्र हा व्हायरस मोझॅक नसून लाईन इन्ड्यूस्ड आयर्न क्लोरॉसिस (Lime Induced Iron Chlorosis) (LIIC ) चा Phenomenon असतो. म्हणजे विद्राव्य चुनखडीयुक्त क्षारांमुळे तसेच प्रमाण कमी झाल्यामुळे भेंडी पिवळी पडते. याचे प्रमाण नंतर हळूहळू वाढत जाते. अशा भेंडीत व्हायरस झाला असे काही कृषी विकास अधिकारी सांगतात. परंतु ते चुकीचे आहे. पुढेपुढे लोहाचे प्रमाण की झाल्यानंतर भेंडीच्या पानांच्या शिरा ह्या जाळीदार हिरव्या दिसून मँगनिजची कमतरता झाली असे म्हणता येईल. परंतु लोह, मँगनिजचा फवारा दिल्यास त्याचा पुर्णपणे उपयोग होत नाही. त्याकरिता सुरुवातीसच काळजी घेणे आवशक आहे.
+                      जय भागामध्ये मॉन्टमोरिलिओनाईट (Montmorrillonite २ : १ Lattice) ह्या चिकणमाती घटकाचे प्रमाण जास्त असते. त्या भागातील जमिनी काळ्या असतात. अशा जमिनीत ही विकृती (LIIC) दिसते. ती वरील कारणास्तव व्हायरसच असेल असे नाही."
+        android:textColor="#000000"
+        android:textSize="20dp"
+        android:paddingLeft="5dp"
+        android:layout_marginTop="10dp"
+        />
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="काढणी आणि उत्पादन "
+        android:textColor="#008e00"
+        android:textStyle="bold"
+        android:textSize="25dp"
+        android:layout_gravity="center_horizontal"
+        android:layout_marginTop="20dp"
+        />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="बी लावल्यानंतर ३५ ते ४० दिवसांत फुले लागतात आणि त्यानंतर ५ ते ६ दिवसांनी फळे तोडणीस येतात. सर्वसाधारणपणे बाजारामध्ये कोवळ्या भेंडीला अधिक मागणी असते. त्यासाठी भेंडीची तोडणी दर दोन दिवसांनी करावी. फळांची तोडणी सकाळी लवकर करावी. त्यामुळे फळांना रंग व तेज टिकून राहते.
+                      साधारणपणे भेंडीचे खरीप हंगामात ५ ते ६ टन तर उन्हाळी हंगामात ३ ते ४ टन उत्पादन मिळते. संकरीत वाणांचे एकरी १० टनही उत्पादन मिळते"
+        android:textColor="#000000"
+        android:textSize="20dp"
+        android:paddingLeft="5dp"
+        android:layout_marginTop="10dp"
+        />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="निर्यातीच्या दृष्टीने भेंडीसाठी घ्यावयाची काळजी"
+        android:textColor="#008e00"
+        android:textStyle="bold"
+        android:textSize="25dp"
+        android:layout_gravity="center_horizontal"
+        android:layout_marginTop="20dp"
+        />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="एक्सपोर्टसाठी भेंडी १॥ ते २ इंच लांबीची सरळ, कोवळी, लुसलुशीत ताजी, चकाकणारी, करंगळी ते तर्जनीच्या जाडीची, कुठलाही डाग नसलेली असावी. अशी भेंडी मिळविण्यासाठी लागवड सपाट वाफ्यामध्ये फोकून दाट करावी. २ झाडांतील अंतर ६ ते ९ इंच - १२ इंच इतके असावे. भेंडीची (झाडाची) उंची २ ते २॥ फुटाची असावी. भेंडी उंच असल्यास आणि रासायनिक खत, पाणी, कोंबड खताचे प्रमाण जास्त असल्यास पाने रुंद होऊन फुल लागण्याची शक्यता कमी असून भेंडी कमी प्रमाणात येते. लागवडीपूर्वी कुजलेले सेंद्रिय खतच वापरावे.
+                      गाव खताचा वापर करू नये. त्याचा वापर केल्यास असून एक समस्या निर्माण होते ती अशी - भेंडीची लागवड जून - जुलै, नोव्हेंबर - डिसेंबर, जानेवारी - मार्च या कालावधीमध्ये केल्यास रोपांमध्ये मर होण्याची भयानक शक्यता असते. एका महिन्यामध्ये भेंडीची पूर्णपणे मर होते. ह्याला 'विल्ट' म्हणतात. ही मर होऊ नये म्हणून भेंडीवर भेंडी किंवा भेंडीवर्गीय पीक घेण्याचे टाळावे. मिरची, कांदा, लसूण यानंतर भेंडी करावी. म्हणजे मर कमी होते. भेंडीची मर होऊ नये म्हणून ३० मिली जर्मिनेटर + १० ग्रॅम प्रोटेक्टंट + १ किलो बी अर्धा लिटर पाण्यामध्ये ४ तास भिजवून नंतर पेरल्यास मर रोगास प्रतिबंध होतो."
+        android:textColor="#000000"
+        android:textSize="20dp"
+        android:paddingLeft="5dp"
+        android:layout_marginTop="10dp"
+        />
+
+
+
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/btnbhendi"
+        android:text="अधिक माहिती"
+        android:layout_margin="20dp"
+        android:layout_gravity="center_horizontal"
+        android:textColor="#ffffff"
+        android:textSize="25dp"
+        android:background="#00ff00"
+        android:padding="5dp"
+        />
+
+</LinearLayout>
+</ScrollView>

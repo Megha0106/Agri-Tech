@@ -1,0 +1,254 @@
+<ScrollView
+    android:layout_height="match_parent"
+    android:layout_width="wrap_content"
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools" >
+
+<LinearLayout
+
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:paddingLeft="@dimen/activity_horizontal_margin"
+    android:paddingRight="@dimen/activity_horizontal_margin"
+    android:paddingTop="@dimen/activity_vertical_margin"
+    android:paddingBottom="@dimen/activity_vertical_margin"
+    android:orientation="vertical"
+    tools:context="com.example.hp.techagree.Tendali">
+
+    <TextView
+        android:text="तोंडली"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textColor="#ff0000"
+        android:textSize="30dp"
+        android:textStyle="bold"
+        android:layout_gravity="center_horizontal"
+        />
+    <ImageView
+        android:layout_width="match_parent"
+        android:layout_height="200dp"
+        android:src="@drawable/tendli"
+        android:scaleType="fitXY"
+        android:layout_marginTop="20dp"
+        android:background="#ff5544"
+        />
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="महाराष्ट्रामध्ये तोंडलीची लागवड जवळ - जवळ सर्वत्र आढळते. तोंडली हे वेलवर्गीय बहुवर्षीय भाजीपाला पीक आहे. या पिकापासून ४ ते ५ वर्षे फळे मिळतात. शहरी भागामध्ये तोंडलीला भरपूर मागणी असते. बाजारभाव चांगला मिळत असल्यामुळे तसेच फळे टिकाऊ आणि वाहतुकीस चांगली असल्याने तोंडलीच्या लागवडीस भरपूर वाव आहे."
+        android:textColor="#000000"
+        android:textSize="20dp"
+        android:paddingLeft="5dp"
+        android:layout_marginTop="10dp"
+        />
+
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="महत्त्व"
+        android:textColor="#008e00"
+        android:textStyle="bold"
+        android:textSize="25dp"
+        android:layout_gravity="center_horizontal"
+        android:layout_marginTop="20dp"
+        />
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="भारतामध्ये तोंडलीची लागवड कर्नाटक, आंध्रप्रदेश, तामिळनाडू, बंगाल, आसाम , बिहार, उत्तरप्रदेश या राज्यामध्ये मोठ्या प्रमाणावर केली जाते, महाराष्ट्रात तोंडलीची लागवड प्रामुख्याने ठाणे व रायगड जिल्ह्यामध्ये केली जाते.
+                      तोंडलीच्या फळांमध्ये कार्बोहायड्रेटस तसेच जीवनसत्त्व 'अ' आणि 'ब' मोठ्या प्रमाणात असते. तोंडलीच्या कोवळ्या फळांचा उपयोग, भाजी, लोणचे, सांबर तयार करण्यासाठी केला जातो. मोठ्या शहरांतील खानावळीत या भाजीचा उपयोग बर्‍याच प्रमाणत केला जातो.
+                      १०० ग्रॅम खाण्यायोग्य तोंडलीमध्ये पाणी ९४% कार्बोहायड्रेटस ३.१ %, प्रोटीन्स १.२ %, फॅक्टस ०.१%, तंतुमय पदार्थ १.६ %, खनिजे ०.५%, कॅल्शियम ०.०४%, फॉस्फरस - ०.०३ %, लोह - ०.००१ %, जीवनसत्त्व क ०.०२%, उष्मांक (कॅलरी) १८ %, या प्रमाणात अन्नघटक असतात.
+"
+        android:textColor="#000000"
+        android:textSize="20dp"
+        android:paddingLeft="5dp"
+        android:layout_marginTop="10dp"
+        />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="जमीन"
+        android:textColor="#008e00"
+        android:textStyle="bold"
+        android:textSize="25dp"
+        android:layout_gravity="center_horizontal"
+        android:layout_marginTop="20dp"
+        />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="तोंडली पिकाला पाण्याचा उत्तम निचरा होणारी मध्यम काळी, पोयटा मिश्रित, रेताड गाळाची जमीन चांगली मानवते. पाणी साठून राहणार्‍या जमिनीत तोंडली पिकाची वाढ चांगली होत नाही."
+        android:textColor="#000000"
+        android:textSize="20dp"
+        android:layout_marginTop="10dp"
+        android:paddingLeft="5dp"
+        />
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="हवामान "
+        android:textColor="#008e00"
+        android:textStyle="bold"
+        android:textSize="25dp"
+        android:layout_gravity="center_horizontal"
+        android:layout_marginTop="20dp"
+        />
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="तोंडली पिकला उष्ण आणि दमट हवामान चांगले मानवते. भरपूर सुर्यप्रकाश असलेल्या कमी अगर जास्त पावसाच्या भागात तोंडलीचे पीक चांगले येते. अती थंडीचा तोंडली पिकाच्या वाढीवर वाईट परिणाम होतो. तसेच अती पावसाचादेखील उत्पादनावर विपरीत परिणाम होतो. असे असले तरी तोंडली एक चिवट पीक असून प्रतिकूल परिस्थितीतही अधिक फळे देण्याची क्षमता या पिकामध्ये आहे. समुद्रकाठची खारी हवा या पिकाला मानवत त्यामुळे कोकण विभागात तोंडलीचे पीक चांगले येते."
+        android:textColor="#000000"
+        android:textSize="20dp"
+        android:layout_marginTop="10dp"
+        android:paddingLeft="5dp"
+        />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="हंगाम आणि लागवडीची पद्धत"
+        android:textColor="#008e00"
+        android:textStyle="bold"
+        android:textSize="25dp"
+        android:layout_gravity="center_horizontal"
+        android:layout_marginTop="20dp"
+        />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="तोंडलीचे पीक लागवडीनंतर त्याचा शेतात ३ ते ४ वर्षे राहत असल्यामुळे जमिनीची पुर्व मशागत चांगली करून त्यामध्ये शेणखत टाकावे. शेणखत कमी प्रमाणात असल्यास लागवडीच्या ठिकाणी १ किलो पुर्ण कुजलेले शेणखत किंवा ५० ग्रॅम २ x २ मीटर अंतरावर तर भाई जमिनीत ३ x २ मीटर अंतरावर लागवड करावी. तोंडलीला वर्षभर मागणी असल्याने बाजारभाव चांगले मिळतात, त्यामुळे वर्षभर केव्हाही लागवड करता येते. सर्व साधारणपणे जुलै, सप्टेंबर आणि जानेवारी महिन्यात लागवड करणे अधिक फायदेशीर ठरते."
+        android:textColor="#000000"
+        android:textSize="20dp"
+        android:layout_marginTop="10dp"
+        android:paddingLeft="5dp"
+        />
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="लागवड  "
+        android:textColor="#008e00"
+        android:textStyle="bold"
+        android:textSize="25dp"
+        android:layout_gravity="center_horizontal"
+        android:layout_marginTop="20dp"
+        />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="प्रत्येक आळ्याच्या मध्यभागी ८ ते १० सेंमी अंतरावर चहाचा चमचाभर कल्पतरू सेंद्रिय खत टाकून त्या ठिकाणी दोन फाटे कलमे लावावीत. लागवडीच्या वेळी जमिनीच्यावर दोन डोळे राहतील याची काळजी घ्यावी. लागवड करताना शेतात १० % नर तोंडलीचे वेल लावावेत. त्यामुळे फलधारणा चांगली होते.
+                      मादी वेलाला येणारी फुले बुडाशी फुगीर असतात. तर नर वेलाला येणार्‍या फुलांना बुडाशी फुगीरपणा नसतो. या वरून नर आणि मादी वेलांची ओळख होते.
+                      तोंडलीची लागवड जून - जुलै महिन्यामध्ये करावी. एरवी लागवडीनंतर १५ ते २० दिवसानंतर बेण्यावर वेल फुटू लागतात. मात्र डॉ.बावसकर टेक्नॉंलॉजीचा बेणेप्रक्रियेसाठी वरीलप्रमाणे वापर केल्यास १० ते १२ दिवसात वेल फुटू लागल्याचे आढळून येते. लागवडीनंतर १। ते १॥ महिन्यात वेल जोमदार वाढू लागतात. तोंडलीची १ एकर क्षेत्रावर लागवड करण्यासाठी ८५० ते १००० फाटे कलमे किंवा तुकडे बेणे लागते."
+        android:textColor="#000000"
+        android:textSize="20dp"
+        android:layout_marginTop="10dp"
+        android:paddingLeft="5dp"
+        />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="पाणी"
+        android:textColor="#008e00"
+        android:textStyle="bold"
+        android:textSize="25dp"
+        android:layout_gravity="center_horizontal"
+        android:layout_marginTop="20dp"
+        />
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="तोंडली पिकास खरीप हंगामामध्ये पाण्याची फारशी गरज भासत नाही. पावसाळ्यात वेलाच्या खोडाशी उंचवटे तयार करून घ्यावेत. वेलीच्या सभोवती पाणी साचणार नाही याची दक्षता घ्यावी. खरीप हंगामात पाऊस नसल्यास पिकाला गरजेनुसार १० ते १२ दिवसांनी पाणी द्यावे. पावसाळा संपल्यावर ऑक्टोबर महिन्यात अंतरमशागत करून वेलीभोवती आळी तयार करून तोंडलीच्या पिकाला पाटाने पाणी देण्याची व्यवस्था करावी. हिवाळ्यात जमिनीच्या मगदुरानुसार ६ ते ८ दिवसांच्या अंतराने तर उन्हाळ्यात ४ ते ६ दिवसांच्या अंतराने पाणी द्यावे. उन्हाळ्यात पाण्याची कमतरता असल्यास ओलावा टिकून ठेवण्यासाठी तोंडलीच्या पिकात (आळ्यात) टिकून ठेवण्यासाठी तोंडलीच्या पिकात (आळ्यात) भाताचा पेंढा, उसाचे पाचट किंवा वाळलेल्या गवताचे आच्छादन करावे."
+        android:textColor="#000000"
+        android:textSize="20dp"
+        android:paddingLeft="5dp"
+        android:layout_marginTop="10dp"
+        />
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="खते"
+        android:textColor="#008e00"
+        android:textStyle="bold"
+        android:textSize="25dp"
+        android:layout_gravity="center_horizontal"
+        android:layout_marginTop="20dp"
+        />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="तोंडली पिकास खत जून, ऑगस्ट, नोव्हेंबर आणि जानेवारी महिन्यात द्यावी. जून महिन्यात प्रत्येक वेलास १०० ग्रॅम कल्पतरू सेंद्रिय खत बांगडी पद्धतीने गाडून द्यावे. ऑगस्ट, नोव्हेंबर, जानेवारी या तिन्ही वेळेस प्रत्येक वेलास ५० ग्रॅम कल्पतरू सेंद्रिय खत द्यावे."
+        android:textColor="#000000"
+        android:textSize="20dp"
+        android:paddingLeft="5dp"
+        android:layout_marginTop="10dp"
+        />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="वेलींना आधार व वळण देणे"
+        android:textColor="#008e00"
+        android:textStyle="bold"
+        android:textSize="25dp"
+        android:layout_gravity="center_horizontal"
+        android:layout_marginTop="20dp"
+        />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text=" तोंडलीचे वेल वाढू लागतात तेव्हा त्यांना आधार द्यावा लागतो. बागेत ६ x ६ मीटर आकाराचे मंडप तयार करून त्यावर वेल वाढू द्यावेत किंवा शक्य असल्यास संपूर्ण क्षेत्रावर मंडप घालावा. मंडपाची उंची २ मीटरपर्यंत असावी. वेलाची उंची ६० ते ७० सेंमी झाल्यावर वेल मांडवावर चढवावा. साधारण ३ - ४ महिन्यात वेलाने पुर्ण मंडप झाकला जातो. मंडपासाठी २.५ मीटर उंच आणि ५ ते ७ सेंमी जाडीचे बांबू किंवा लागकी खांब किंवा डांब वापरावेत. डांबांना साधारणत: १४ ते १६ गेजच्या आडव्या उभ्या तारा बांधाव्यात आणि १५ सेंमी अंतरावर काथ्या किंवा नायलॉनची दोरी दोन्ही बाजूला खाली सोडावी, म्हणजे दोरीने चौकोन तयार होतील.
+                       कोकणात बर्‍याच ठिकाणी मासे पकडण्यासाठी वापरण्यात येणारी जाळी पसरून मांडव तयार करतात. मांडवावरील खर्च कमी करण्यासाठी उपलब्ध असलेल्या सुबाभुळ, शेवरी, वेडी बाभूळ या झाडांच्या फांद्यांचा उपयोग करून खर्चात बचत करता येते.
+                       परस बागेत तोंडलीचे वेल कुंपणावर किंवा झुडपांवर चढविता येतात, मात्र मंडप केल्यास अधिक उत्पादन मिळते आणि फळांची प्रतही चांगली राहते. माल संपल्यानंतर झाडांची खोडे मंडपापर्यंत ठेवून वेलींची छाटणी करावी. छाटणीनंतर जमिनीची मशागत करून तण काढून जमीन भुसभुसीत करावी."
+        android:textColor="#000000"
+        android:textSize="20dp"
+        android:paddingLeft="5dp"
+        android:layout_marginTop="10dp"
+        />
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="काढणी आणि उत्पादन "
+        android:textColor="#008e00"
+        android:textStyle="bold"
+        android:textSize="25dp"
+        android:layout_gravity="center_horizontal"
+        android:layout_marginTop="20dp"
+        />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="तोंडलीचे बेणे (छाट) लावल्यापासून दोन महिन्यांनी वेलांना फुले येऊ लागतात आणि तिसर्‍या महिन्यात फळे तोडणीस येतात. परंतु दुसर्‍या वर्षी वेलांची डिसेंबर - जानेवारीत छाटणी केल्यानंतर १.५ ते २ महिन्यात फळे तोडणीस तयार होतात. तोंडलीच्या फळांची तोंडणी फळे कोवळी असताना आणि त्यातील बिया जून होण्यापुर्वी करावी. जास्त जून झालेली तोंडलीची फळे कठीण बनतात आणि आतील गर तांबडा होतो.
+                      फळांची तोडणी रोज किंवा दिवसाड केल्यास कळीची तोंडली मिळतात. अशा कोवळ्या कळीच्या तोंडल्यांना बाजारभावही चांगला मिळतो. फळे सर्वसाधारण तापमानात ५ ते ६ दिवसांपर्यंत चांगली राहतात. या पिकाचे प्रत्येक वर्षी एकरी ५ ते ६ टन उत्पादन मिळते. तिसर्‍या वर्षानंतर तोंडलीच्या उत्पादनात घट येते. मात्र वरीलप्रमाणे डॉ.बावसकर टेक्नॉंलॉजीचा दरवर्षी नियमित वापर केल्यास पाच वर्षापर्यंत चांगली उत्पादन मिळते.
+                      एका वेलीपासून वर्षाला ८ ते १० किलो फळे मिळतात. पहिल्या वर्षीप्रमाणे खत, पाणीपुरवठा, मशागत, फवारण्या करून वेळेवर छाटणी केल्यास ३ ते ५ वर्षापर्यंत चांगला माल मिळतो. नंतर माल कमी पडू लागल्यास नवीन ठिकाणी लागवड करावी. तोंडलीच्या ताज्य फळांना शहरात मोठ्या प्रमाणत मागणी असल्याने शक्यतो काढणीनंतर लगेच विक्रीसाठी पाठवावीत.
+                      मोठ्या शहरांच्या आजूबाजूला तोंडलीची लागवड व्यापारीदृष्ट्या करण्यास चांगला वाव आहे."
+        android:textColor="#000000"
+        android:textSize="20dp"
+        android:paddingLeft="5dp"
+        android:layout_marginTop="10dp"
+        />
+
+
+
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/btntenddali"
+        android:text="अधिक माहिती"
+        android:layout_margin="20dp"
+        android:layout_gravity="center_horizontal"
+        android:textColor="#ffffff"
+        android:textSize="25dp"
+        android:background="#00ff00"
+        android:padding="5dp"
+        />
+
+</LinearLayout>
+</ScrollView>

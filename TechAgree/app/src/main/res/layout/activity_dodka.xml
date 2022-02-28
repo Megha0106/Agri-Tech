@@ -1,0 +1,241 @@
+<ScrollView
+    android:layout_height="match_parent"
+    android:layout_width="wrap_content"
+    xmlns:android="http://schemas.android.com/apk/res/android">
+
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools" android:layout_width="match_parent"
+    android:layout_height="match_parent" android:paddingLeft="@dimen/activity_horizontal_margin"
+    android:paddingRight="@dimen/activity_horizontal_margin"
+    android:paddingTop="@dimen/activity_vertical_margin"
+    android:paddingBottom="@dimen/activity_vertical_margin"
+    android:orientation="vertical"
+    tools:context="com.example.hp.techagree.Dodka">
+
+    <TextView android:text="दोडका"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textColor="#ff0000"
+        android:textSize="30dp"
+        android:textStyle="bold"
+        android:layout_gravity="center_horizontal"
+        />
+    <ImageView
+        android:layout_width="match_parent"
+        android:layout_height="200dp"
+        android:src="@drawable/anledluffa"
+        android:scaleType="fitXY"
+        android:layout_marginTop="20dp"
+        android:background="#ff5544"
+        />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="दोडका हे १२ ही महिने येणारे व ३ महिन्यात संपणारे पीक आहे. सर्वसाधारणपणे रागाच्या भरात लोक रगेल दोडका हे विशेषण वापरतात, तेव्ह जावयाच्या दुधी भोपळ्यासारखा 'दोडका' नावडता असला तरी शेतकऱ्यांना व आरोग्याच्या दृष्टीने दोडक्याची लागवड फायदेशीर आहे."
+        android:textSize="20dp"
+        android:textColor="#000000"
+        android:paddingLeft="5dp"
+        android:layout_marginTop="20dp"
+        />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="महत्त्व"
+        android:textColor="#008e00"
+        android:textStyle="bold"
+        android:textSize="25dp"
+        android:layout_gravity="center_horizontal"
+        android:layout_marginTop="20dp"
+        />
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="दोडक्याच्या आरोग्याच्या दृष्टीकोनातून महत्त्वाचा उपयोग म्हणजे वाळलेल्या दोडक्याची जाळी व गोखरू (Santhium Strumarium) यांची धुरी घेतल्यास मुळव्याधीतील मोडावर इलाज होतो असा आयुर्वेदिक तज्ञांचा अनुभव आहे. प्रदुषणयुक्त वातावरणातून, गर्दीतून वाहन नेताना माणसाच्या मनावर जो ताण (Tension) निर्माण होतो. तो ताण पातळ मुगाच्या डाळीबरोबर दोडक्याची भाजी भाकरीसोबत खाल्ल्यास कमी होतो. ही भाजी पाचक आहे. दोडक्याच्या सालीची चटणी इतर चटणीबरोबर (उदा. शेंगदाण्याची चटणी वगैरे) तर चविष्ट व आरोग्यदृष्टीने महत्त्वपूर्ण आहे."
+        android:textColor="#000000"
+        android:textSize="20dp"
+        android:paddingLeft="5dp"
+        android:layout_marginTop="10dp"
+        />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="जमीन"
+        android:textColor="#008e00"
+        android:textStyle="bold"
+        android:textSize="25dp"
+        android:layout_gravity="center_horizontal"
+        android:layout_marginTop="20dp"
+        />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="दोडका हे पीक पावसाळ्यामध्ये 'भुरी' सारख्या रोगाला बळी पडते म्हणून लागवडीकरीता हलकी ते मध्यम करड्या रंगाची कोणतीही जमीन उदा. ऊस शेतीतील जी, बी किंवा डी टाईप, निरा कॅनॉल लगतची, फलटण, कोकणातील तांबूस तसेच कर्नाटक, तामिळनाडू, भागातील जमीन चांगली मानवते. काळ्या जमिनीत जेथे पाणी धारण करण्याची क्षमता ५०% च्यावर आहे, तेथे पाण्याचा निचरा कमी झाल्याने जमीन जास्त फुगते व त्याच आर्द्रतेचे बाष्पीभवनामुळे पानाच्या खालील व वरील बाजूस ते बाष्प साठल्यामुळे खालच्या बाजूने करपा व वरच्यावर पानांवर भुरी पडण्याची दाट शक्यता असते. कल्पतरू सेंद्रिय खत वापरून काळ्या जमिनीत सुद्धा दोडक्याची वाढ झपाटयाने होते व थंडीतसुद्धा शेंडा चांगला चालतो असा अनेक शेतकऱ्यांचा अनुभव आहे."
+        android:textColor="#000000"
+        android:textSize="20dp"
+        android:layout_marginTop="10dp"
+        android:paddingLeft="5dp"
+        />
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="हवामान "
+        android:textColor="#008e00"
+        android:textStyle="bold"
+        android:textSize="25dp"
+        android:layout_gravity="center_horizontal"
+        android:layout_marginTop="20dp"
+        />
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="कोरड्या ते समशीतोष्ण हवामानात व उन्हाळ्यात पाण्याची व्यवस्था असल्यास अतिशय चांगल्या प्रकारे वाढ होते. २५ डी से. ते ३५ डी से. हे तापमान दोडक्याच्या वाढीस योग्य आहे. जास्त पावसाच्या कालावधीत म्हणजे १५ ते २० दिवस सलग पाऊस पडत असल्यास अशा हवामानामध्ये कोणतेही वेलवर्गीय पीक करू नये. कारण १५ ते २० दिवस सतत पाऊस पडल्याने वेलाची पाने, वेल, खोड, मुळाभोवतालचा भाग यावर विविध प्रकराची कीड व रोगांचा प्रादुर्भाव होतो. त्यामुळे नंतरच्या भाजीपिकावर ही कीड व रोगाचे नियंत्रण करण्यासाठी जास्त खर्च होतो, म्हणून पावसाळ्यामध्ये असे पीक घेऊ नये. याचा अंदाज आणणांस साधारणपणे जून महिन्याच्या अखेरीस येऊ शकतो. मृग नक्षत्रात पाऊस पडला नाही, तर आर्द्रात पडतो, नाहीतर पुष्यात पडतो, किंवा हस्त, चित्रा व आश्लेषात पाऊस पडतो. दोन वर्षे सलग ४० ते ६० दिवसापासून ते ९० ते ११० दिवस देशभर पाऊस कोसळतो, म्हणून शेती उत्पन्न घटले आहे."
+        android:textColor="#000000"
+        android:textSize="20dp"
+        android:layout_marginTop="10dp"
+        android:paddingLeft="5dp"
+        />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text=" लागवडीचा हंगाम"
+        android:textColor="#008e00"
+        android:textStyle="bold"
+        android:textSize="25dp"
+        android:layout_gravity="center_horizontal"
+        android:layout_marginTop="20dp"
+        />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="पावसाळ्यामध्ये इतर भाज्यांची आवक वाढल्याने दोडक्याला मागणी कमी राहते. तसेच पावसाळ्यामध्ये दोडका भिजलेला कमी चव असलेला राहतो. तेव्हा हे पीक आडहंगामी म्हणून करावे. ऑक्टोबर - नोव्हेंबर महिन्यात सलग किंवा फळबागांमध्ये मिश्रपीक म्हणून केले तर ५ ते १० गुंठ्यामध्ये शेतकऱ्यांनी ३ महिन्यात आठवड्यातून दोनदा तोडणी करून व जवळच्या काही शहरी मार्केटमध्ये स्वत: बसून (सातीवर) हातविक्री करून ३० ते ४० हजार रुपये मिळविल्याची उदाहरणे आहेत.
+                        यात मात्र लागण करताना अशी दखल घ्यावी की, थंडीत लागवड करतेवेळेस सूर्य दक्षिणायनात असताना सरी पूर्व - पश्चिम व उथळ काढावी, खोल काढू नये, लागवड करताना शक्यतो सरीच्या उत्तर बाजूस आतल्या बाजूने लागवड करावी. दक्षिणेकडच्या बाजूच्या सरीस लागवड करू नये. कारण सप्टेंबरनंतर सूर्य हा ३/४ दक्षिणायनात पोहोचलेला असतो आणि म्हणून सुर्यप्रकाश कमी मिळाल्याने बेण्याची उगवण ५०% पेक्षा कमी होते. सरी पूर्व - पश्चिम असेल व लागवड नीट केलेली नसेल तर शेतकरी हे दुकानदार किंवा कंपनीस दोष देतात व कधी - कधी स्वत:चे बी वापरले, तर या परिस्थितीचा दोष शेतकऱ्यांना कळत नाही म्हणून हे विवेचन."
+        android:textColor="#000000"
+        android:textSize="20dp"
+        android:layout_marginTop="10dp"
+        android:paddingLeft="5dp"
+        />
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="लागवड  "
+        android:textColor="#008e00"
+        android:textStyle="bold"
+        android:textSize="25dp"
+        android:layout_gravity="center_horizontal"
+        android:layout_marginTop="20dp"
+        />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="दोडका हे पीक आंतरपीक म्हणून केले तर फायदा होतो. पाण्याची उपलब्धता असेल तर एका ठिकाणी एकच बी टोकावे. अंतर ४ x १.५ फूट ते ६ x १.५ ते २ फूट अंतर ठेवावे. सरीच्या मध्यभागी आतल्या बाजूने बी टोकावे. पाणी उपलब्ध असल्यास अंतर कमी ठेवून तिकडी पद्धतीने बी टोकावे. पनवेल भागामध्ये आळे पद्धतीने तर देशावर सरी पद्धतीने लागवड करतात."
+        android:textColor="#000000"
+        android:textSize="20dp"
+        android:layout_marginTop="10dp"
+        android:paddingLeft="5dp"
+        />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="पाणी"
+        android:textColor="#008e00"
+        android:textStyle="bold"
+        android:textSize="25dp"
+        android:layout_gravity="center_horizontal"
+        android:layout_marginTop="20dp"
+        />
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="मोकाट पाण्यापेक्षा ठिबक पाण्यावर, दोडका चांगला मोठा व चविष्ट होतो. आजुबाजूची पाने कोरडी राहिल्याने झपाट्याने वाढतात. शेतकरी मात्र वीज जाते यासारख्या समस्येमुळे पाणी मोकाट देतो. इथेच त्याची घोडचूक होते. पाणी देतान खोडाचा देठ भिजू नये. अनियमित 'भीज पाणी' न देता 'टेक पाणी द्यावे.' रोगराईचा प्रश्न अनियमित मोकाट पाण्यामुळे हमखास भेडसावतो. ठिबक पद्धतीमध्ये ही समस्या न राहता उत्पन्न व दर्जा चांगला मिळतो. थंडीमध्ये सकाळी १० ते दुपारी ३ पर्यंत पाणी द्यावे. उन्हाळ्यामध्ये मात्र सकाळी ९ च्या आत पाणी द्यावे. मध्यम काळी व हलकी जमीन असेल तर संध्याकाळी रात्री ९ पर्यंत पाणी दिले तरी चालते. परंतु विदर्भातील, तापीकाठची जमीन असेल तर संध्याकाळी पाणी देण्याचा अट्टाहास करू नये. फूल लागल्यानंतर चौथ्या दिवशी पाणी द्यावे. पाण्याचा ताण बसल्यावर दोडका जरी जाड वाटत असला तरी आतून पोकळ निघाल्याने शेतकर्याला ५ रुपयाला २ मोठे दोडके विकावे लागतात."
+        android:textColor="#000000"
+        android:textSize="20dp"
+        android:paddingLeft="5dp"
+        android:layout_marginTop="10dp"
+        />
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="खते"
+        android:textColor="#008e00"
+        android:textStyle="bold"
+        android:textSize="25dp"
+        android:layout_gravity="center_horizontal"
+        android:layout_marginTop="20dp"
+        />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="दोडका पिकासाठी प्रति हेक्‍टरी  20 ते 30 किलो नत्र 25 किलो स्‍फूरद व 25 किलो पालाश लागवडीच्‍या वेळी द्यावेत. व नत्राचा 25 ते 30 किलोचा दुसरा हप्‍ता 1 महिन्‍याने द्यावा."
+        android:textColor="#000000"
+        android:textSize="20dp"
+        android:paddingLeft="5dp"
+        android:layout_marginTop="10dp"
+        />
+
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="तोडणी व उत्पादन "
+        android:textColor="#008e00"
+        android:textStyle="bold"
+        android:textSize="25dp"
+        android:layout_gravity="center_horizontal"
+        android:layout_marginTop="20dp"
+        />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="लागवडीपासून प्रथम तोडणी ६५ ते ७५ दिवसात सुरू होते. एकरी ७५ ते १०० क्विंटल उत्पादन मिळते."
+        android:textColor="#000000"
+        android:textSize="20dp"
+        android:paddingLeft="5dp"
+        android:layout_marginTop="10dp"
+        />
+
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text=" दोडका मार्केटला आणताना घ्यावयाची काळजी"
+        android:textColor="#008e00"
+        android:textStyle="bold"
+        android:textSize="25dp"
+        android:layout_gravity="center_horizontal"
+        android:layout_marginTop="20dp"
+        />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="पसरट पाटीमध्ये खाली गाजरगवताचा पाला घ्यावा व त्यावर निरगुडी व कडुनिंबाचा पाला टाकावा. त्यावरी गोंदण, पळस, एरंडाची पाने ठेवून भरावीत . लांब दोडके असल्यास डालग्यामध्ये बैलगाडीचे आख, चाक किंवा घड्याळाच्या काट्याप्रमाणे भरावीत. एका लहान ते मोठ्या डालग्यामध्ये १५ ते ३० - ३५ किलो दोडके बसतात. अजूनही कोल्हापूरमध्ये सर्व प्रकारची तरकारी डागावर वजन न करता विकली जाते, परंतु ज्या ठिकाणी कृषी उत्पन्न बाजार समित्या आहेत. तेथे मात्र दोडका पहाटेचे वेळीस मार्केटला आणावा. उन्हाचे वेळीस मार्केटला माल आणल्यास वजन व रंग कमी होण्याची शक्यता असते."
+        android:textColor="#000000"
+        android:textSize="20dp"
+        android:paddingLeft="5dp"
+        android:layout_marginTop="10dp"
+        />
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/btndodka"
+        android:text="अधिक माहिती"
+        android:layout_margin="20dp"
+        android:layout_gravity="center_horizontal"
+        android:textColor="#ffffff"
+        android:textSize="25dp"
+        android:background="#00ff00"
+        android:padding="5dp"
+        />
+
+</LinearLayout>
+</ScrollView>

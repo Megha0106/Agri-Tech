@@ -1,0 +1,83 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.example.hp.techagree" >
+
+    <uses-permission android:name="ANDROID.PERMISSION.CALL_PHONE" />
+
+    <application
+        android:allowBackup="true"
+        android:icon="@mipmap/ic_launcher"
+        android:label="@string/app_name"
+        android:theme="@style/AppTheme" >
+        <activity
+            android:name=".MainActivity"
+            android:theme="@style/Theme.AppCompat.NoActionBar" >
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        <activity
+            android:name=".Login"
+            android:label="लॉग इन" >
+        </activity>
+        <activity
+            android:name=".Season"
+            android:label="हंगाम" >
+        </activity>
+        <activity
+            android:name=".Summer"
+            android:label="उन्हाळा" >
+        </activity>
+        <activity
+            android:name=".registration"
+            android:label="नोंदणी" >
+        </activity>
+        <activity
+            android:name=".Rainy"
+            android:label="पावसाळा" >
+        </activity>
+        <activity
+            android:name=".Winter"
+            android:label="हिवाळा" >
+        </activity>
+        <activity
+            android:name=".Watermelon"
+            android:label="कलिंगड" >
+        </activity>
+        <activity
+            android:name=".Kakadi"
+            android:label="काकडी" >
+        </activity>
+        <activity
+            android:name=".Dodka"
+            android:label="दोडका" >
+        </activity>
+        <activity
+            android:name=".Ghosali"
+            android:label="घोसाळी" >
+        </activity>
+        <activity
+            android:name=".Karli"
+            android:label="कारली" >
+        </activity>
+        <activity
+            android:name=".Dudhibhopla"
+            android:label="दुधीभोपळा" >
+        </activity>
+        <activity
+            android:name=".Tendali"
+            android:label="तोंडली" >
+        </activity>
+        <activity
+            android:name=".Bhendi"
+            android:label="भेंडी" >
+        </activity>
+        <activity
+            android:name=".Kapus"
+            android:label="कापूस" >
+        </activity>
+    </application>
+
+</manifest>
